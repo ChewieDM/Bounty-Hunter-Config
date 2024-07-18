@@ -48,23 +48,23 @@ Texts = {
 BountyMissions = {
 
 	-- Dificuldades: Facil, Médio , Dificil e Lendario. --
-	-- Facil: 1 a 2 pessoas, poucos inimigos e utilizam revolveres e armas brancas; --
-	-- Médio: 3 a 4 pessoas, alguns inimigos e utilizam repetidores e shotguns; --
-	-- Dificil: 4 a 6 pessoas, bastante inimigos e utilizam rifle de ferrolho, carcanos, e todo tipo de arma potente. --
-	-- Lendario: 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de armamento e suas posições e comportamentos são pensados para o jogador utilizar estratégias e diversos tipos de equipamento para conseguir completar. Blips de inimigos não aparecem no mapa, Alvo da missão é ped "unico" e diferente --
+	-- Facil: 1 a 2 pessoas, poucos inimigos e utilizam revolveres, armas brancas e repetidora carabina; Podem ser feitas durante o dia todo até a noite--
+	-- Médio: 3 a 4 pessoas, alguns inimigos e utilizam repetidores e shotguns; Horarios mais curtos --
+	-- Dificil: 4 a 6 pessoas, bastante inimigos e utilizam rifle de ferrolho, carcanos, e todo tipo de arma potente. Horarios perigosos e janela menor de tempo para começar, requer mais planejamento --
+	-- Lendario: 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de armamento e suas posições e comportamentos são pensados para o jogador utilizar estratégias e diversos tipos de equipamento para conseguir completar. Blips de inimigos não aparecem no mapa, Alvo da missão é ped "unico" e diferente. Só é possivel fazer um numero bem limitado por dia, pois a janela para começar a missão é de 1 hora apenas, requerindo extremo planejamento. --
 
 	-- Facil --
-	[2] = {
+	[1] = {
 		firstname = "Alonzo",
 		secondname = "Eager",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Fort Wallace",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
-		moneymax = 40,
+		moneymax = 55,
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
-		timeC = 18, -- time after ped's don't spawn
+		timeC = 22, -- time after ped's don't spawn
 		pos = {350.788, 1479.769, 178.596},
 		enemies = {
 			"g_m_m_bountyhunters_01",
@@ -91,17 +91,17 @@ BountyMissions = {
 		}
 	},
 
-	[3] = {
+	[2] = {
 		firstname = "Austin",
 		secondname = "Majestic",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Fort Wallace",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-			moneymin = 25,
-		moneymax = 40,
+		moneymin = 35,
+		moneymax = 45,
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
-		timeC = 14, -- time after ped's don't spawn
+		timeC = 22, -- time after ped's don't spawn
 		pos = {350.788, 1479.769, 178.596},
 		enemies = {
 			"g_m_m_bountyhunters_01",
@@ -114,27 +114,28 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 		},
 	spawnenemies = {
-		{x = 351.423, y = 1462.482, z = 182.782, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
-		{x = 350.788, y = 1479.769, z = 178.596, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
-		{x = 359.019, y = 1467.052, z = 182.745, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 30},
-		{x = 358.909, y = 1472.086, z = 178.851, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-		{x = 355.808, y = 1468.029, z = 178.699, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
+		{x = 351.423, y = 1462.482, z = 182.782, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50},
+		{x = 350.788, y = 1479.769, z = 178.596, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 70},
+		{x = 359.019, y = 1467.052, z = 182.745, weapon ="WEAPON_MELEE_KNIFE", style = 2, accuracy = 80},
+		{x = 358.909, y = 1472.086, z = 178.851, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 100},
+		{x = 355.808, y = 1468.029, z = 178.699, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 3, accuracy = 60},
+		{x = 364.990, y = 1481.511, z = 179.213, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 2, accuracy = 70},
+		{x = 360.272, y = 1484.737, z = 179.153, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 60},
+		{x = 357.670, y = 1490.340, z = 179.121, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 2, accuracy = 50},
 		}
 	},
 
-	[6] = {
+	[3] = {
 		firstname = "Carson",
 		secondname = "Butcher",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Grizzlies West",
-		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 25,
-		moneymax = 50,
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 40,
+		moneymax = 80,
 		showblips = true,
-		timeO = 10, -- time when ped's spawn
-		timeC = 18, -- time after ped's don't spawn    
-		arrestnpc = "mp_g_m_m_armoredjuggernauts_01",
-		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
 		pos = {-1894.111, 1354.839, 201.230},
 		enemies = {
 			"g_m_m_bountyhunters_01",
@@ -147,27 +148,27 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = {
-			{x = -1892.049, y = 1346.595, z = 200.139, weapon ="WEAPON_PISTOL_M1899", style = 1, accuracy = 50},
+			{x = -1892.049, y = 1346.595, z = 200.139, weapon ="WEAPON_PISTOL_MAUSER", style = 1, accuracy = 50},
 			{x = -1898.788, y = 1347.496, z = 200.343, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
-			{x = -1890.823, y = 1341.068, z = 200.742, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 30},
-			{x = -1884.726, y = 1334.646, z = 199.744, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 1, accuracy = 100},
-			{x = -1877.963, y = 1336.746, z = 200.299, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
-			{x = -1876.213, y = 1331.811, z = 201.242, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
+			{x = -1890.823, y = 1341.068, z = 200.742, weapon ="WEAPON_MELEE_KNIFE", style = 2, accuracy = 60},
+			{x = -1884.726, y = 1334.646, z = 199.744, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 80},
+			{x = -1877.963, y = 1336.746, z = 200.299, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 60},
+			{x = -1876.213, y = 1331.811, z = 201.242, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 50},
 			{x = -1890.364, y = 1329.424, z = 198.903, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
 			}
 		},
 
-	[9] = {
+	[4] = {
 		firstname = "Coleman",
 		secondname = "Dove",
         image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Roanoke Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-        moneymin = 10,
-		moneymax = 20,
+        moneymin = 20,
+		moneymax = 50,
 		showblips = true,
-        timeO = 1, -- time when ped's spawn
-        timeC = 23, -- time after ped's don't spawn    
+        timeO = 8, -- time when ped's spawn
+        timeC = 22, -- time after ped's don't spawn    
 		pos = {2518.337, 2284.414, 176.351},
 		enemies = {
         	"g_m_m_bountyhunters_01",
@@ -180,25 +181,25 @@ BountyMissions = {
             "U_M_M_BHT_ODRISCOLLDRUNK"
         	},
         spawnenemies = {
-			{x = 2518.337, y = 2284.414, z = 176.351, weapon ="WEAPON_PISTOL_M1899", style = 1, accuracy = 50},
-			{x = 2518.003, y = 2287.330, z = 176.342, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
-			{x = 2510.037, y = 2287.429, z = 176.351, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 30},
-			{x = 2510.301, y = 2290.202, z = 176.351, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 2513.319, y = 2275.073, z = 175.723, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
+			{x = 2518.337, y = 2284.414, z = 176.351, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50},
+			{x = 2518.003, y = 2287.330, z = 176.342, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 70},
+			{x = 2510.037, y = 2287.429, z = 176.351, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 60},
+			{x = 2510.301, y = 2290.202, z = 176.351, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 80},
+			{x = 2513.319, y = 2275.073, z = 175.723, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 80},
         	}
     	},
 		
-	[14] = {
+	[5] = {
 		firstname = "Lawrence", -- First Name 
 		secondname = "Fierce", -- Last Name
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Van Horn", -- Bounty Location
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 40, -- Money Minim
+		moneymin = 35, -- Money Minim
 		moneymax = 60, -- Maxim Money
 		showblips = true, -- npc blips
-		timeO = 13, -- time when ped's spawn
-		timeC = 21, -- time after ped's don't spawn    
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
 		pos = {2825.905, 276.096, 47.112}, -- pos where is the selected mission !
 		enemies = { -- enemies that spawn random from this list
 			"g_m_m_bountyhunters_01",
@@ -211,32 +212,30 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = { -- enemies locations, ped weapons, ped combat style, ped accuracy 
-			{x = 2830.554, y = 277.781, z = 50.086, weapon ="WEAPON_PISTOL_M1899", style = 1, accuracy = 50},
+			{x = 2830.554, y = 277.781, z = 50.086, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 1, accuracy = 50},
 			{x = 2828.820, y = 279.498, z = 50.086, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 70},
-			{x = 2831.466, y = 275.844, z = 50.086, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 30},
-			{x = 2828.823, y = 272.757, z = 50.080, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 2825.660, y = 269.900, z = 50.080, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
+			{x = 2831.466, y = 275.844, z = 50.086, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 30},
+			{x = 2828.823, y = 272.757, z = 50.080, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 90},
+			{x = 2825.660, y = 269.900, z = 50.080, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 60},
 			{x = 2822.662, y = 266.548, z = 50.080, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
 			{x = 2822.662, y = 266.548, z = 50.080, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
-			{x = 2818.052, y = 269.683, z = 47.023, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 90},
-			{x = 2818.395, y = 265.704, z = 46.910, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 2823.057, y = 261.677, z = 46.701, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 2, accuracy = 60},
+			{x = 2818.052, y = 269.683, z = 47.023, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 80},
+			{x = 2818.395, y = 265.704, z = 46.910, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 100},
+			{x = 2823.057, y = 261.677, z = 46.701, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60},
 			}
 		},
 
-	[12] = {
+	[6] = { -- adicionar mais peds -- killer
 		firstname = "Frank",
 		secondname = "Clayton",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Roanoke Valley",
-		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 10,
-		moneymax = 30,
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 20,
+		moneymax = 40,
 		showblips = true,
 		timeO = 4, -- time when ped's spawn
 		timeC = 22, -- time after ped's don't spawn    
-		arrestnpc = "mp_u_m_m_bountytarget_016",
-		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {2415.179, 1763.965, 88.636},
 		enemies = {
 			"g_m_m_bountyhunters_01",
@@ -256,15 +255,15 @@ BountyMissions = {
 			}
 		},
 
-	[15] = {
+	[7] = {
 		firstname = "Luke", -- First Name 
 		secondname = "Famous", -- Last Name
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Van Horn", -- Bounty Location
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 10, -- Money Minim
-		moneymax = 25, -- Maxim Money
-		timeO = 5, -- time when ped's spawn
+		moneymin = 15, -- Money Minim
+		moneymax = 30, -- Maxim Money
+		timeO = 8, -- time when ped's spawn
 		timeC = 22, -- time after ped's don't spawn    
 		showblips = true, -- npc blips
 		pos = {2825.905, 276.096, 47.112}, -- pos where is the selected mission !
@@ -279,27 +278,27 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = { -- enemies locations, ped weapons, ped combat style, ped accuracy 
-			{x = 2830.554, y = 277.781, z = 50.086, weapon ="WEAPON_PISTOL_M1899", style = 1, accuracy = 50},
+			{x = 2830.554, y = 277.781, z = 50.086, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50},
 			{x = 2828.820, y = 279.498, z = 50.086, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 70},
-			{x = 2831.466, y = 275.844, z = 50.086, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 30},
-			{x = 2828.823, y = 272.757, z = 50.080, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 2825.660, y = 269.900, z = 50.080, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
+			{x = 2831.466, y = 275.844, z = 50.086, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 30},
+			{x = 2828.823, y = 272.757, z = 50.080, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100},
+			{x = 2825.660, y = 269.900, z = 50.080, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 60},
 			}
 		},
 
-	[17] = {
+	[8] = {
 		firstname = "John",
 		secondname = "Morgan",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Kamassa",
+		city = "Kamassa Fort",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 25,
-		moneymax = 50,
+		moneymin = 30,
+		moneymax = 55,
 		showblips = true,
-		timeO = 12, -- time when ped's spawn
-		timeC = 19, -- time after ped's don't spawn    
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
 		arrestnpc = "mp_u_m_m_bountytarget_017",
-		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
+		arrestnpcwep = "WEAPON_REVOLVER_CATTLEMAN",
 		pos = {2454.093, 290.076, 69.446},
 		enemies = {
 			"g_m_m_unibanditos_01",
@@ -311,30 +310,28 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = {
-			{x = 2457.833, y = 285.286, z = 69.844, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
+			{x = 2457.833, y = 285.286, z = 69.844, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 50},
 			{x = 2450.265, y = 282.351, z = 69.516, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 70},
-			{x = 2449.772, y = 290.435, z = 69.331, weapon ="WEAPON_RIFLE_BOLTACTION", style = 3, accuracy = 30},
-			{x = 2444.760, y = 291.103, z = 69.347, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 2445.225, y = 294.356, z = 69.342, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
-			{x = 2444.941, y = 285.890, z = 69.486, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
-			{x = 2464.516, y = 296.537, z = 69.425, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
-			{x = 2465.201, y = 303.395, z = 70.301, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 90},
+			{x = 2449.772, y = 290.435, z = 69.331, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 60},
+			{x = 2444.760, y = 291.103, z = 69.347, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 80},
+			{x = 2445.225, y = 294.356, z = 69.342, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 60},
+			{x = 2444.941, y = 285.890, z = 69.486, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50},
+			{x = 2464.516, y = 296.537, z = 69.425, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 70},
+			{x = 2465.201, y = 303.395, z = 70.301, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 90},
 			}
 		},
 
-	[21] = {
+	[9] = { -- add mais peds
 		firstname = "Tom",
 		secondname = "Shelby",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Bluwater Marsh",
-		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 10,
-		moneymax = 20,
+		city = "Lagras",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 20,
+		moneymax = 40,
 		showblips = true,
-		timeO = 2, -- time when ped's spawn
-		timeC = 23, -- time after ped's don't spawn    
-		arrestnpc = "mp_u_m_m_legendarybounty_006",
-		arrestnpcwep = "WEAPON_REPEATER_CARBINE",
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
 		pos = {2152.999, -639.030, 41.512},
 		enemies = {
 			"g_m_m_bountyhunters_01",
@@ -347,15 +344,15 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = {
-			{x = 2147.966, y = -640.914, z = 41.520, weapon ="WEAPON_PISTOL_M1899", style = 1, accuracy = 50},
+			{x = 2147.966, y = -640.914, z = 41.520, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 1, accuracy = 50},
 			{x = 2142.368, y = -641.802, z = 41.615, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 70},
-			{x = 2140.187, y = -650.787, z = 41.308, weapon ="WEAPON_RIFLE_BOLTACTION", style = 2, accuracy = 30},
-			{x = 2133.418, y = -640.315, z = 41.616, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 2139.688, y = -630.237, z = 41.711, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
+			{x = 2140.187, y = -650.787, z = 41.308, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 2, accuracy = 30},
+			{x = 2133.418, y = -640.315, z = 41.616, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 100},
+			{x = 2139.688, y = -630.237, z = 41.711, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 60},
 			}
 		},
 
-	[22] = {
+	[10] = {
 		firstname = "John",
 		secondname = "Wesley",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -380,19 +377,19 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = {
-			{x = 1893.843, y = -742.363, z = 41.269, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
+			{x = 1893.843, y = -742.363, z = 41.269, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 2, accuracy = 50},
 			{x = 1895.901, y = -737.034, z = 41.318, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 70},
-			{x = 1888.955, y = -741.978, z = 40.862, weapon ="WEAPON_RIFLE_BOLTACTION", style = 3, accuracy = 30},
-			{x = 1881.149, y = -737.367, z = 41.500, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
-			{x = 1876.535, y = -734.915, z = 41.647, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 2, accuracy = 60},
-			{x = 1875.951, y = -739.031, z = 41.697, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
+			{x = 1888.955, y = -741.978, z = 40.862, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 30},
+			{x = 1881.149, y = -737.367, z = 41.500, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 90},
+			{x = 1876.535, y = -734.915, z = 41.647, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60},
+			{x = 1875.951, y = -739.031, z = 41.697, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 2, accuracy = 50},
 			{x = 1869.166, y = -746.279, z = 41.878, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
 			{x = 1873.321, y = -756.536, z = 40.205, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 80},
 			}
 		},
 	-- Médio --
 
-	[8] = {
+	[11] = {
 		firstname = "Clayton",
 		secondname = "Mortal",
         image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -433,11 +430,11 @@ BountyMissions = {
         	}
     	},
 
-	[16] = {
+	[12] = {
 		firstname = "Jesse",
 		secondname = "James",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Kamassa",
+		city = "Kamassa Fort",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
 		moneymax = 75,
@@ -472,7 +469,7 @@ BountyMissions = {
 			}
 		},	
 
-	[23] = {
+	[13] = {
 		firstname = "John",
 		secondname = "Wyat",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -509,7 +506,7 @@ BountyMissions = {
 			}
 		},
 
-	[24] = {
+	[14] = {
 		firstname = "Luke",
 		secondname = "Shane",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -545,7 +542,7 @@ BountyMissions = {
 			}
 		},
 
-	[25] = {
+	[15] = {
 		firstname = "Louis",
 		secondname = "West",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -581,7 +578,7 @@ BountyMissions = {
 			}
 		},
 
-	[26] = {
+	[16] = {
 		firstname = "Harry",
 		secondname = "Ruben",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -619,7 +616,7 @@ BountyMissions = {
 			}
 		},
 
-	[27] = {
+	[17] = {
 		firstname = "Lawrence",
 		secondname = "Holt",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -657,7 +654,7 @@ BountyMissions = {
 			}
 		},
 
-	[28] = {
+	[18] = {
 		firstname = "Levi",
 		secondname = "Earle",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -695,7 +692,7 @@ BountyMissions = {
 			}
 		},
 
-	[29] = {
+	[19] = {
 		firstname = "Logan",
 		secondname = "Riley",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -734,7 +731,7 @@ BountyMissions = {
 		},
 	-- Dificil --
 
-	[1] = {
+	[20] = {
 		firstname = "Billy", -- First Name 
 		secondname = "Kid", -- Last Name
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -778,7 +775,7 @@ BountyMissions = {
 			}
 		},
 
-	[4] = {
+	[21] = {
 		firstname = "Bill",
 		secondname = "Bones",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -820,7 +817,7 @@ BountyMissions = {
 			}
 		},
 
-	[5] = {
+	[22] = {
 		firstname = "Carson",
 		secondname = "Butcher",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -859,7 +856,7 @@ BountyMissions = {
 			}
 		},
 
-	[7] = {
+	[23] = {
 		firstname = "Cassidy",
 		secondname = "Clay",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -912,7 +909,7 @@ BountyMissions = {
 			}
 		},
 
-	[10] = {
+	[24] = {
 		firstname = "Dallas",
 		secondname = "Bo",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -967,7 +964,7 @@ BountyMissions = {
 			}
 		},
 
-	[13] = {
+	[25] = {
 		firstname = "Flynn", -- First Name 
 		secondname = "West", -- Last Name
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -1014,7 +1011,7 @@ BountyMissions = {
 			}
 		},
 
-	[11] = {
+	[26] = {
 		firstname = "Flynn",
 		secondname = "Earle",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -1056,11 +1053,11 @@ BountyMissions = {
 			}
 		},
 
-	[18] = {
+	[27] = {
 		firstname = "Arthur",
 		secondname = "Reuben",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Kamassa",
+		city = "Kamassa Fort",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
 		moneymax = 75,
@@ -1099,11 +1096,11 @@ BountyMissions = {
 			}
 		},
 
-	[19] = {
+	[28] = {
 		firstname = "Arthur",
 		secondname = "Ranger",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Bluwater Marsh",
+		city = "Lagras",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
 		moneymax = 75,
@@ -1143,11 +1140,11 @@ BountyMissions = {
 			}
 		},
 
-	[20] = {
+	[29] = {
 		firstname = "Porter",
 		secondname = "Ray",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Bluwater Marsh",
+		city = "Lagras",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
 		moneymax = 75,
