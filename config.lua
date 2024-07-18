@@ -67,12 +67,11 @@ BountyMissions = {
 		timeC = 22, -- time after ped's don't spawn
 		pos = {350.788, 1479.769, 178.596},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 		},
@@ -104,12 +103,11 @@ BountyMissions = {
 		timeC = 22, -- time after ped's don't spawn
 		pos = {350.788, 1479.769, 178.596},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 		},
@@ -138,12 +136,11 @@ BountyMissions = {
 		timeC = 22, -- time after ped's don't spawn    
 		pos = {-1894.111, 1354.839, 201.230},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -171,12 +168,11 @@ BountyMissions = {
         timeC = 22, -- time after ped's don't spawn    
 		pos = {2518.337, 2284.414, 176.351},
 		enemies = {
-        	"g_m_m_bountyhunters_01",
-            "g_m_m_unibanditos_01",
-            "re_street_fight_males_01",
+        	"G_M_M_BOUNTYHUNTERS_01",
+            "G_M_M_UNIBANDITOS_01",
+            "RE_STREET_FIGHT_MALES_01",
             "U_M_M_BHT_ODRISCOLLSLEEPING",
-            "re_street_fight_males_01",
-            "mp_g_m_m_bountyhunters_01",
+            "MP_G_M_M_BOUNTYHUNTERS_01",
             "U_M_M_BHT_ODRISCOLLMAULED",
             "U_M_M_BHT_ODRISCOLLDRUNK"
         	},
@@ -202,12 +198,11 @@ BountyMissions = {
 		timeC = 22, -- time after ped's don't spawn    
 		pos = {2825.905, 276.096, 47.112}, -- pos where is the selected mission !
 		enemies = { -- enemies that spawn random from this list
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -238,12 +233,11 @@ BountyMissions = {
 		timeC = 22, -- time after ped's don't spawn    
 		pos = {2415.179, 1763.965, 88.636},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -268,12 +262,11 @@ BountyMissions = {
 		showblips = true, -- npc blips
 		pos = {2825.905, 276.096, 47.112}, -- pos where is the selected mission !
 		enemies = { -- enemies that spawn random from this list
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -301,11 +294,10 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_REVOLVER_CATTLEMAN",
 		pos = {2454.093, 290.076, 69.446},
 		enemies = {
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -334,12 +326,11 @@ BountyMissions = {
 		timeC = 22, -- time after ped's don't spawn    
 		pos = {2152.999, -639.030, 41.512},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -367,12 +358,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {1875.951, -739.031, 41.697},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -402,12 +392,11 @@ BountyMissions = {
         timeC = 20, -- time after ped's don't spawn    
 		pos = {2518.337, 2284.414, 176.351},
 		enemies = {
-        	"g_m_m_bountyhunters_01",
-            "g_m_m_unibanditos_01",
-            "re_street_fight_males_01",
+        	"G_M_M_BOUNTYHUNTERS_01",
+            "G_M_M_UNIBANDITOS_01",
+            "RE_STREET_FIGHT_MALES_01",
             "U_M_M_BHT_ODRISCOLLSLEEPING",
-            "re_street_fight_males_01",
-            "mp_g_m_m_bountyhunters_01",
+            "MP_G_M_M_BOUNTYHUNTERS_01",
             "U_M_M_BHT_ODRISCOLLMAULED",
             "U_M_M_BHT_ODRISCOLLDRUNK"
         	},
@@ -445,11 +434,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {2454.093, 290.076, 69.446},
 		enemies = {
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -484,12 +473,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {2139.998, -1283.485, 48.648},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -521,12 +509,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {-328.724, -150.561, 50.078},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"RE_STREET_FIGHT_MALES_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -557,12 +544,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {-1022.902, -1625.756, 78.019},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -593,12 +579,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {-1822.870, -615.853, 154.015},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -631,12 +616,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {-2075.823, -1891.929, 112.435},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -669,12 +653,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {-3321.158, -2862.516, -7.218},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -707,12 +690,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_RIFLE_BOLTACTION",
 		pos = {-3842.241, -3009.168, -7.8008165359497},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -744,12 +726,11 @@ BountyMissions = {
 		timeC = 19, -- time after ped's don't spawn
 		pos = {350.788, 1479.769, 178.596}, -- pos where is the selected mission !
 		enemies = { -- enemies that spawn random from this list
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -790,12 +771,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {-1894.111, 1354.839, 201.230},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -832,12 +812,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {-1894.111, 1354.839, 201.230},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -869,12 +848,11 @@ BountyMissions = {
 		timeC = 8, -- time after ped's don't spawn    
 		pos = {2518.337, 2284.414, 176.351},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -924,12 +902,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {2415.179, 1763.965, 88.636},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -977,12 +954,11 @@ BountyMissions = {
 		timeC = 23, -- time after ped's don't spawn    
 		pos = {2825.905, 276.096, 47.112}, -- pos where is the selected mission !
 		enemies = { -- enemies that spawn random from this list
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -1026,12 +1002,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_PISTOL_M1899",
 		pos = {2415.179, 1763.965, 88.636},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -1068,11 +1043,10 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {2454.093, 290.076, 69.446},
 		enemies = {
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -1111,12 +1085,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SNIPERRIFLE_CARCANO",
 		pos = {2152.999, -639.030, 41.512},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -1155,12 +1128,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SNIPERRIFLE_CARCANO",
 		pos = {2152.999, -639.030, 41.512},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
@@ -1201,12 +1173,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_PISTOL_M1899",
 		pos = {-3842.241, -3009.168, -7.8008165359497},
 		enemies = {
-			"g_m_m_bountyhunters_01",
-			"g_m_m_unibanditos_01",
-			"re_street_fight_males_01",
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
 			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"re_street_fight_males_01",
-			"mp_g_m_m_bountyhunters_01",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
 			"U_M_M_BHT_ODRISCOLLMAULED",
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
