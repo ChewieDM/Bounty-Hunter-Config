@@ -1,5 +1,7 @@
 -- Author '🅱🅻🆄🅴🆈🅴🆂#1364' by Sirec Studio -- 
 -- REPORT ANY BUGS ON https://discord.gg/9XNBaQSmMd --
+-- Novas Missões adicionadas por ChewieDM
+--  DEV, as configuraçoes de cada missão devem ser bem analisadas e pensadas antes de mudar algo, missões tem diferentes dificuldades que podem ser definidas por Horario, Numero de Inimigos e Armas que usam, evite colocar uma recompensa muito baixa para recompensas que são dificeis de completar sozinho até pra alguem experiente. O horario é uma otima maneira de limitar a Missão de recompensa alta de ser feita apenas 1-2 vezes por dia do jogo. --
 
 local VorpCore = {}
 TriggerEvent("getCore",function(core)
