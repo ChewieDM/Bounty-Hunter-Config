@@ -1149,7 +1149,43 @@ BountyMissions = {
 			{x = -3855.326171875, y = -3016.58935546875, z = -8.10537910461425, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 80},
         	}
     	},
-	},
+		[29] = {
+			firstname = "Barão",
+			secondname = "das Carroças",
+			image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",    
+			city = "Saint Denis",
+			type = "arrest", -- SELECT ONLY "arrest" or "killer"
+			moneymin = 300,
+			moneymax = 700,
+			showblips = true,
+			timeO = 8, -- time when ped's spawn
+			timeC = 12, -- time after ped's don't spawn    
+			arrestnpc = "mp_u_m-m-legedarybounty_09",
+			arrestnpcwep = "WEAPON_PISTOL_M1899",
+			pos = {-3842.241, -3009.168, -7.8008165359497},
+			enemies = {
+				"g_m_m_bountyhunters_01",
+				"g_m_m_unibanditos_01",
+				"re_street_fight_males_01",
+				"U_M_M_BHT_ODRISCOLLSLEEPING",
+				"re_street_fight_males_01",
+				"mp_g_m_m_bountyhunters_01",
+				"U_M_M_BHT_ODRISCOLLMAULED",
+				"U_M_M_BHT_ODRISCOLLDRUNK"
+				},
+			spawnenemies = {
+				{x = -3845.37353515625, y = -3013.224365234375, z = -7.86573982238769, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
+				{x = -3848.801025390625, y = -3011.947998046875, z = -7.83977079391479, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
+				{x = -3847.9609375, y = -3006.83447265625, z = -7.90665960311889, weapon ="WEAPON_RIFLE_BOLTACTION", style = 3, accuracy = 30},
+				{x = -3842.43017578125, y = -3009.55712890625, z = -7.87518119812011, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 2, accuracy = 100},
+				{x = -3844.692138671875, y = -3007.11669921875, z = -7.92386531829834, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 3, accuracy = 60},
+				{x = -3846.041015625, y = -3000.040283203125, z = -7.97590065002441, weapon ="WEAPON_PISTOL_M1899", style = 2, accuracy = 50},
+				{x = -3856.034423828125, y = -3005.73291015625, z = -8.25351667404174, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
+				{x = -3855.326171875, y = -3016.58935546875, z = -8.10537910461425, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 80},
+				{x = -3856.034423828125, y = -3005.73291015625, z = -8.25351667404174, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
+				{x = -3855.326171875, y = -3016.58935546875, z = -8.10537910461425, weapon ="WEAPON_REPEATER_CARBINE", style = 3, accuracy = 80},
+				}
+			},
 }
 
 function NOTIFY(text) --SET YOUR NOTIFYCATIONS
