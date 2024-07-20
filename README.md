@@ -14,7 +14,7 @@ Recomendado ser feito de 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de 
 > Essa dificuldade não é brincadeira, inimigos tem uma precisão mortal.
 
 # Locais de Missões
-![Bounties RedM]()
+![Bounties RedM](https://github.com/ChewieDM/Bounty-Hunter-Config/blob/main/redm%20bounties.png)
 
 - Amarelo: Bounties lendárias
 - Laranja: Bounties adicionadas
