@@ -16,7 +16,7 @@ AddBountyPass = "1995",
 RepSystem = true,
 RepAmount = 50,
 
-MissionAutoTime = 900, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
+MissionAutoTime = 1200, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
 DieNpcTime = 10, -- (30 seconds) Delete npc's after the player who took the bounty is dead !
 DieBountyTime = 10, -- (60 seconds) Delete npc's after you killed the bounty target !
 AlliveNpcTime = 60, -- (90 seconds) Delete npc's after you killed them all and finished the mission!
@@ -52,7 +52,12 @@ BountyMissions = {
 	-- Médio: 3 a 4 pessoas, alguns inimigos e utilizam repetidores e shotguns; Horarios mais curtos --
 	-- Dificil: 4 a 6 pessoas, bastante inimigos e utilizam rifle de ferrolho, carcanos, e todo tipo de arma potente. Horarios perigosos e janela menor de tempo para começar, requer mais planejamento --
 	-- Lendario: 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de armamento e suas posições e comportamentos são pensados para o jogador utilizar estratégias e diversos tipos de equipamento para conseguir completar. Blips de inimigos não aparecem no mapa, Alvo da missão é ped "unico" e diferente. Só é possivel fazer um numero bem limitado por dia, pois a janela para começar a missão é poucas horas apenas, requerindo extremo planejamento. --
-
+	-- Comportamento de NPC:
+	-- 0 - Parado (Fica no Lugar) - Otimo para snipers e emboscadas de 12 -
+ 	-- 1 - Defensive (Vai procurar cbertura e atirar sem se expor muito)
+ 	-- 2 - Ofensiva (Vai rushar no player e procurar cobertura ao mesmo tempo)
+	-- 3 - Ofensiva Suicida (Vai tentar flanquear o player em um ataque suicida)
+	
 	-- Facil --
 	[1] = {
 		firstname = "Alonzo",
