@@ -1718,7 +1718,7 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Little Creek River",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 300,
+		moneymin = 400,
 		moneymax = 650,
 		showblips = true,
 		timeO = 18, -- time when ped's spawn
@@ -2002,19 +2002,19 @@ BountyMissions = {
 			{x = 2930, y = 2336, z = 158, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
 			{x = 2932, y = 2330, z = 158, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
 			{x = 2933, y = 2324, z = 158, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
-			{x = 2923, y = 2350, z = 157, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75}, 
+			{x = 2923, y = 2350, z = 157, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
 			{x = 2918, y = 2359, z = 157, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
-			{x = 2914, y = 2367, z = 157, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75}, 	
-			{x = 2904, y = 2374, z = 158, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75}, -- rushas dentro
-			{x = 2892, y = 2373, z = 158, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85}, -- c 0
-			{x = 2928, y = 2306, z = 157, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85}, -- c 0
+			{x = 2914, y = 2367, z = 157, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
+			{x = 2904, y = 2374, z = 158, weapon ="WEAPON_REPEATER_HENRY", style = 3, accuracy = 75},
+			{x = 2892, y = 2373, z = 158, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85},
+			{x = 2928, y = 2306, z = 157, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85},
 			{x = 2926, y = 2301, z = 157, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
 			{x = 2916, y = 2310, z = 157, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
 			{x = 2882, y = 2358, z = 158, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
 			{x = 2869, y = 2358, z = 157, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
 			{x = 2870, y = 2370, z = 159, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
-			{x = 2858, y = 2371, z = 157, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70}, -- w 1
-			{x = 2858, y = 2336, z = 158, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 75}, 
+			{x = 2858, y = 2371, z = 157, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
+			{x = 2858, y = 2336, z = 158, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 75},
 			{x = 2851, y = 2323, z = 157, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 75},
 			}
 		},
