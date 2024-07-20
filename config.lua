@@ -1200,7 +1200,7 @@ BountyMissions = {
 		moneymax = 700,
 		showblips = false,
 		timeO = 1, -- time when ped's spawn
-		timeC = 2, -- time after ped's don't spawn    
+		timeC = 3, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_M_M_LEGENDARYBOUNTY_003",
 		arrestnpcwep = "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",
 		pos = {1502, -1834, 57},
@@ -1210,30 +1210,30 @@ BountyMissions = {
 			"u_m_m_orpguard_01"
 			},
 		spawnenemies = {
-			{x = 1513, y = -1833, z = 52, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1511, y = -1823, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},  
-			{x = 1506, y = -1818, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85}, 
-			{x = 1518, y = -1816, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85}, 
-			{x = 1519, y = -1819, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1513, y = -1819, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1507, y = -1808, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},  
-			{x = 1512, y = -1806, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},  
-			{x = 1529, y = -1808, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1524, y = -1805, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1530, y = -1817, z = 52, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1519, y = -1819, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1479, y = -1844, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1484, y = -1852, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85}, 
-			{x = 1505, y = -1856, z = 58, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1522, y = -1827, z = 51, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1494, y = -1772, z = 57, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},  
-			{x = 1474, y = -1807, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1480, y = -1825, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1517, y = -1867, z = 56, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1528, y = -1867, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1478, y = -1863, z = 52, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
-			{x = 1456, y = -1841, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},  
-			{x = 1498, y = -1802, z = 56, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 85},
+			{x = 1513, y = -1833, z = 52, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1511, y = -1823, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},  
+			{x = 1506, y = -1818, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
+			{x = 1518, y = -1816, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
+			{x = 1519, y = -1819, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1513, y = -1819, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1507, y = -1808, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},  
+			{x = 1512, y = -1806, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},  
+			{x = 1529, y = -1808, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1524, y = -1805, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1530, y = -1817, z = 52, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1519, y = -1819, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1479, y = -1844, z = 53, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1484, y = -1852, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
+			{x = 1505, y = -1856, z = 58, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1522, y = -1827, z = 51, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1494, y = -1772, z = 57, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},  
+			{x = 1474, y = -1807, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1480, y = -1825, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1517, y = -1867, z = 56, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1528, y = -1867, z = 54, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1478, y = -1863, z = 52, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1456, y = -1841, z = 55, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},  
+			{x = 1498, y = -1802, z = 56, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
 			}
 		},
 	[32] = {
@@ -1242,9 +1242,9 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Ambarino",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 300,
-		moneymax = 700,
-		showblips = true,
+		moneymin = 450,
+		moneymax = 800,
+		showblips = false,
 		timeO = 8, -- time when ped's spawn
 		timeC = 12, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_M_M_LEGENDARYBOUNTY_004",
@@ -1285,10 +1285,10 @@ BountyMissions = {
 		city = "Little Creek River",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 300,
-		moneymax = 700,
+		moneymax = 650,
 		showblips = true,
-		timeO = 8, -- time when ped's spawn
-		timeC = 12, -- time after ped's don't spawn    
+		timeO = 18, -- time when ped's spawn
+		timeC = 20, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_F_M_LEGENDARYBOUNTY_001",
 		arrestnpcwep = "WEAPON_MELEE_KNIFE",
 		pos = {-2460, 842, 146},
@@ -1330,9 +1330,9 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Thieves Landing",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 300,
-		moneymax = 450,
-		showblips = false,
+		moneymin = 450,
+		moneymax = 800,
+		showblips = true,
 		timeO = 4, -- time when ped's spawn
 		timeC = 6, -- time after ped's don't spawn    
 		pos = {-1412, -2315, 43},
@@ -1384,8 +1384,8 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Twin Rocks",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 300,
-		moneymax = 700,
+		moneymin = 350,
+		moneymax = 850,
 		showblips = true,
 		timeO = 10, -- time when ped's spawn
 		timeC = 13, -- time after ped's don't spawn    
@@ -1435,8 +1435,8 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Rathskeller Fork",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 300,
-		moneymax = 700,
+		moneymin = 320,
+		moneymax = 800,
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
 		timeC = 12, -- time after ped's don't spawn    
@@ -1487,10 +1487,10 @@ BountyMissions = {
 		city = "Fort Mercer",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 300,
-		moneymax = 700,
-		showblips = true,
+		moneymax = 750,
+		showblips = false,
 		timeO = 8, -- time when ped's spawn
-		timeC = 12, -- time after ped's don't spawn    
+		timeC = 11, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_F_M_LEGENDARYBOUNTY_03",
 		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
 		pos = {-4226, -3451, 42},
@@ -1532,7 +1532,7 @@ BountyMissions = {
 			{x = -4243, y = -3484, z = 37, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
 			{x = -4242, y = -3497, z = 37, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
 			{x = -4255, y = -3478, z = 37, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
-			{x = -4247, y = -3465, z = 37, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75},  -- Winchester
+			{x = -4247, y = -3465, z = 37, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75},
 			{x = -4219, y = -3428, z = 42, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
 			{x = -4225, y = -3445, z = 44, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
 			{x = -4222, y = -3456, z = 42, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
