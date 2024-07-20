@@ -313,7 +313,7 @@ BountyMissions = {
 			}
 		},
 
-	[9] = { -- add mais peds
+	[9] = {
 		firstname = "Tom",
 		secondname = "Shelby",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
@@ -375,6 +375,145 @@ BountyMissions = {
 			{x = 1875.951, y = -739.031, z = 41.697, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 2, accuracy = 50},
 			{x = 1869.166, y = -746.279, z = 41.878, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 70},
 			{x = 1873.321, y = -756.536, z = 40.205, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 80},
+			}
+		},
+
+	[39] = {
+		firstname = "Steve",
+		secondname = "Dias",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Benedict Point",
+		type = "arrest", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 25,
+		moneymax = 50,
+		showblips = true,
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
+		arrestnpc = "re_crashedwagon_males_01",
+		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
+		pos = {-5226, -3468, -21},
+		enemies = {
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
+			},
+		spawnenemies = {
+			{x = -5232, y = -3488, z = -21, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 50}, 
+			{x = -5221, y = -3489, z = -21, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 50}, 
+			{x = -5208, y = -3492, z = -22, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 50}, 
+			{x = -5221, y = -3503, z = -22, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 50}, 
+			{x = -5213, y = -3464, z = -22, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 40}, 
+			{x = -5221, y = -3460, z = -21, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 40}, 
+			{x = -5232, y = -3464, z = -21, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 40}, 
+			{x = -5242, y = -3467, z = -22, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 40}, 
+			{x = -5241, y = -3486, z = -21, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 40}, 
+			}
+		},
+
+	[40] = {
+		firstname = "Daniel",
+		secondname = "Paladíno",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Hennigan's Stead",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 25,
+		moneymax = 50,
+		showblips = true,
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
+		arrestnpc = "re_crashedwagon_males_01",
+		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
+		pos = {-2722, -2378, 45},
+		enemies = {
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
+			},
+		spawnenemies = {
+			{x = -2737, y = -2391, z = 45, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50}, 
+			{x = -2746, y = -2384, z = 45, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50}, 
+			{x = -2736, y = -2368, z = 45, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50}, 
+			{x = -2730, y = -2362, z = 45, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50}, 
+			{x = -2715, y = -2350, z = 46, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50},
+			{x = -2710, y = -2355, z = 46, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 50},
+			{x = -2700, y = -2359, z = 47, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = -2710, y = -2367, z = 46, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = -2724, y = -2383, z = 45, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = -2726, y = -2391, z = 45, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40}, 
+			{x = -2720, y = -2395, z = 45, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40}, 
+			{x = -2737, y = -2396, z = 45, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			}
+		},
+	[38] = {
+		firstname = "Jorge",
+		secondname = "Vasquez",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Moonstone Pond",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 25,
+		moneymax = 50,
+		showblips = true,
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
+		pos = {1255, 1153, 151},
+		enemies = {
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"U_M_M_BHT_ODRISCOLLSLEEPING",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
+			"U_M_M_BHT_ODRISCOLLMAULED",
+			"U_M_M_BHT_ODRISCOLLDRUNK"
+			},
+		spawnenemies = {
+			{x = 1255, y = 1153, z = 151, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 1, accuracy = 50},
+			{x = 1250, y = 1160, z = 151, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 1, accuracy = 50},
+			{x = 1271, y = 1157, z = 150, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 1, accuracy = 50},
+			{x = 1249, y = 1174, z = 150, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 1, accuracy = 50},
+			{x = 1233, y = 1166, z = 150, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 1, accuracy = 50},
+			{x = 1241, y = 1155, z = 151, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 35},
+			{x = 1257, y = 1168, z = 149, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 35},
+			{x = 1300, y = 1185, z = 150, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 35},
+			{x = 1240, y = 1192, z = 149, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 35},
+			{x = 1281, y = 1164, z = 150, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 35},
+			}
+		},
+	[38] = {
+		firstname = "Donald",
+		secondname = "Biden",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Eris Field",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 25,
+		moneymax = 50,
+		showblips = true,
+		timeO = 8, -- time when ped's spawn
+		timeC = 22, -- time after ped's don't spawn    
+		pos = {1201, -568, 69},
+		enemies = {
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"U_M_M_BHT_ODRISCOLLSLEEPING",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
+			"U_M_M_BHT_ODRISCOLLMAULED",
+			"U_M_M_BHT_ODRISCOLLDRUNK"
+			},
+		spawnenemies = {
+			{x = 1210, y = -558, z = 70, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50},
+			{x = 1209, y = -572, z = 67, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50},
+			{x = 1185, y = -564, z = 70, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50}, 
+			{x = 1183, y = -554, z = 71, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50},
+			{x = 1175, y = -531, z = 70, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50},
+			{x = 1191, y = -529, z = 71, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = 1203, y = -537, z = 71, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = 1214, y = -545, z = 71, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = 1227, y = -542, z = 70, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
+			{x = 1235, y = -550, z = 68, weapon ="WEAPON_REVOLVER_CATTLEMAN", style = 3, accuracy = 40},
 			}
 		},
 	-- Médio --
@@ -696,6 +835,154 @@ BountyMissions = {
 			{x = -3855.326171875, y = -3016.58935546875, z = -8.10537910461425, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 80},
 			}
 		},
+
+	[41] = {
+		firstname = "Steve",
+		secondname = "Dias",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Benedict Point",
+		type = "arrest", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 40,
+		moneymax = 80,
+		showblips = true,
+		timeO = 13, -- time when ped's spawn
+		timeC = 20, -- time after ped's don't spawn    
+		arrestnpc = "re_crashedwagon_males_01",
+		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
+		pos = {-5226, -3468, -21},
+		enemies = {
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
+			},
+		spawnenemies = {
+			{x = -5232, y = -3488, z = -21, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5221, y = -3489, z = -21, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5208, y = -3492, z = -22, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5221, y = -3503, z = -22, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5213, y = -3464, z = -22, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5221, y = -3460, z = -21, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5232, y = -3464, z = -21, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -5242, y = -3467, z = -22, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 85}, 
+			{x = -5241, y = -3486, z = -21, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 85}, 
+			{x = -5231, y = -3505, z = -22, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 85}, 
+			{x = -5215, y = -3453, z = -15, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 85}, 
+			{x = -5214, y = -3457, z = -15, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100}, 
+			{x = -5228, y = -3476, z = -20, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100}, 
+			{x = -5223, y = -3475, z = -21, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100}, 
+			{x = -5224, y = -3471, z = -21, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100}, 
+			}
+		},
+
+	[42] = {
+		firstname = "Daniel",
+		secondname = "Paladíno",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Hennigan's Stead",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 40,
+		moneymax = 80,
+		showblips = true,
+		timeO = 13, -- time when ped's spawn
+		timeC = 20, -- time after ped's don't spawn    
+		arrestnpc = "re_crashedwagon_males_01",
+		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
+		pos = {-2722, -2378, 45},
+		enemies = {
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
+			},
+		spawnenemies = {
+			{x = -2737, y = -2391, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -2746, y = -2384, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -2736, y = -2368, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -2730, y = -2362, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65}, 
+			{x = -2715, y = -2350, z = 46, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = -2710, y = -2355, z = 46, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 75},
+			{x = -2700, y = -2359, z = 47, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 75},
+			{x = -2710, y = -2367, z = 46, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 75},
+			{x = -2724, y = -2383, z = 45, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 75},
+			{x = -2726, y = -2391, z = 45, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 75}, 
+			{x = -2720, y = -2395, z = 45, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100}, 
+			{x = -2737, y = -2396, z = 45, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 100},
+			}
+		},
+
+	[38] = {
+		firstname = "Jorge",
+		secondname = "Vasquez",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Moonstone Pond",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 40,
+		moneymax = 80,
+		showblips = true,
+		timeO = 13, -- time when ped's spawn
+		timeC = 20, -- time after ped's don't spawn    
+		pos = {1255, 1153, 151},
+		enemies = {
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"U_M_M_BHT_ODRISCOLLSLEEPING",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
+			"U_M_M_BHT_ODRISCOLLMAULED",
+			"U_M_M_BHT_ODRISCOLLDRUNK"
+			},
+		spawnenemies = {
+			{x = 1255, y = 1153, z = 151, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1250, y = 1160, z = 151, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1271, y = 1157, z = 150, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1249, y = 1174, z = 150, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1233, y = 1166, z = 150, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1241, y = 1155, z = 151, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1257, y = 1168, z = 149, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1300, y = 1185, z = 150, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1240, y = 1192, z = 149, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 85},
+			{x = 1281, y = 1164, z = 150, weapon ="WEAPON_SHOTGUN_DOUBLEBARREL", style = 3, accuracy = 85},
+			}
+		},
+
+	[38] = {
+		firstname = "Donald",
+		secondname = "Biden",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Eris Field",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 40,
+		moneymax = 80,
+		showblips = true,
+		timeO = 13, -- time when ped's spawn
+		timeC = 20, -- time after ped's don't spawn    
+		pos = {1201, -568, 69},
+		enemies = {
+			"G_M_M_BOUNTYHUNTERS_01",
+			"G_M_M_UNIBANDITOS_01",
+			"U_M_M_BHT_ODRISCOLLSLEEPING",
+			"RE_STREET_FIGHT_MALES_01",
+			"MP_G_M_M_BOUNTYHUNTERS_01",
+			"U_M_M_BHT_ODRISCOLLMAULED",
+			"U_M_M_BHT_ODRISCOLLDRUNK"
+			},
+		spawnenemies = {
+			{x = 1210, y = -558, z = 70, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1209, y = -572, z = 67, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1185, y = -564, z = 70, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65}, 
+			{x = 1183, y = -554, z = 71, weapon ="WEAPON_REPEATER_CARBINE", style = 1, accuracy = 65},
+			{x = 1175, y = -531, z = 70, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1191, y = -529, z = 71, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1203, y = -537, z = 71, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1214, y = -545, z = 71, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1227, y = -542, z = 70, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			{x = 1235, y = -550, z = 68, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 65},
+			}
+		},
+
 	-- Dificil --
 
 	[20] = {
@@ -1120,25 +1407,172 @@ BountyMissions = {
 			"U_M_M_BHT_ODRISCOLLDRUNK"
 			},
 		spawnenemies = {
-			{x = 2147.966, y = -640.914, z = 41.520, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2142.368, y = -641.802, z = 41.615, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2140.187, y = -650.787, z = 41.308, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2133.418, y = -640.315, z = 41.616, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2139.688, y = -630.237, z = 41.711, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2143.815, y = -630.337, z = 41.595, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2143.568, y = -624.938, z = 40.558, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2160.993, y = -619.492, z = 41.880, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2126.144, y = -595.991, z = 41.576, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2124.218, y = -588.992, z = 41.530, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2134.709, y = -608.390, z = 40.766, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2152.969, y = -622.403, z = 40.536, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2161.172, y = -612.075, z = 40.448, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
-			{x = 2109.181, y = -622.289, z = 40.597, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
+			{x = 2147.966, y = -640.914, z = 41.520, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2142.368, y = -641.802, z = 41.615, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2140.187, y = -650.787, z = 41.308, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2133.418, y = -640.315, z = 41.616, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2139.688, y = -630.237, z = 41.711, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2143.815, y = -630.337, z = 41.595, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2143.568, y = -624.938, z = 40.558, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 50},
+			{x = 2160.993, y = -619.492, z = 41.880, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
+			{x = 2126.144, y = -595.991, z = 41.576, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
+			{x = 2124.218, y = -588.992, z = 41.530, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
+			{x = 2134.709, y = -608.390, z = 40.766, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
+			{x = 2152.969, y = -622.403, z = 40.536, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
+			{x = 2161.172, y = -612.075, z = 40.448, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
+			{x = 2109.181, y = -622.289, z = 40.597, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 50},
 			{x = 2094.865, y = -611.288, z = 44.118, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
 			{x = 2133.418, y = -640.315, z = 41.616, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50},
 			{x = 2147.966, y = -640.914, z = 41.520, weapon ="WEAPON_REPEATER_WINCHESTER", style = 3, accuracy = 50}
 			}
 		},
+
+	[38] = {
+		firstname = "Steve",
+		secondname = "Dias",
+		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		city = "Benedict Point",
+		type = "arrest", -- SELECT ONLY "arrest" or "killer"
+		moneymin = 160,
+		moneymax = 210,
+		showblips = true,
+		timeO = 18, -- time when ped's spawn
+		timeC = 3, -- time after ped's don't spawn    
+		arrestnpc = "re_crashedwagon_males_01",
+		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
+		pos = {-5226, -3468, -21},
+		enemies = {
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
+			},
+		spawnenemies = {
+			{x = -5232, y = -3488, z = -21, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5221, y = -3489, z = -21, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5208, y = -3492, z = -22, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5221, y = -3503, z = -22, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5213, y = -3464, z = -22, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5221, y = -3460, z = -21, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5232, y = -3464, z = -21, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5242, y = -3467, z = -22, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+			{x = -5241, y = -3486, z = -21, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 85}, 
+			{x = -5231, y = -3505, z = -22, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 85}, 
+			{x = -5215, y = -3453, z = -15, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 85}, 
+			{x = -5214, y = -3457, z = -15, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 85}, 
+			{x = -5228, y = -3476, z = -20, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 1, accuracy = 100}, 
+			{x = -5223, y = -3475, z = -21, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 1, accuracy = 100}, 
+			{x = -5224, y = -3471, z = -21, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 1, accuracy = 100}, 
+			}
+		},
+
+		[38] = {
+			firstname = "Daniel",
+			secondname = "Paladíno",
+			image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+			city = "Hennigan's Stead",
+			type = "killer", -- SELECT ONLY "arrest" or "killer"
+			moneymin = 160,
+			moneymax = 210,
+			showblips = true,
+			timeO = 18, -- time when ped's spawn
+			timeC = 3, -- time after ped's don't spawn    
+			arrestnpc = "re_crashedwagon_males_01",
+			arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
+			pos = {-2722, -2378, 45},
+			enemies = {
+				"mp_fm_bounty_horde_males_01",
+				"u_m_m_bht_banditomine",
+				"u_m_m_bht_banditoshack",
+				"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+				"u_m_m_riodonkeyrider_01"
+				},
+			spawnenemies = {
+				{x = -2737, y = -2391, z = 45, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
+				{x = -2746, y = -2384, z = 45, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+				{x = -2736, y = -2368, z = 45, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 90}, 
+				{x = -2730, y = -2362, z = 45, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+				{x = -2715, y = -2350, z = 46, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 90},
+				{x = -2710, y = -2355, z = 46, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 85},
+				{x = -2700, y = -2359, z = 47, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 1, accuracy = 85},
+				{x = -2710, y = -2367, z = 46, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85},
+				{x = -2724, y = -2383, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85},
+				{x = -2726, y = -2391, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
+				{x = -2720, y = -2395, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
+				{x = -2737, y = -2396, z = 45, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85},
+				}
+			},
+
+			[38] = {
+				firstname = "Jorge",
+				secondname = "Vasquez",
+				image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+				city = "Moonstone Pond",
+				type = "killer", -- SELECT ONLY "arrest" or "killer"
+				moneymin = 160,
+				moneymax = 210,
+				showblips = true,
+				timeO = 18, -- time when ped's spawn
+				timeC = 3, -- time after ped's don't spawn    
+				pos = {1255, 1153, 151},
+				enemies = {
+					"G_M_M_BOUNTYHUNTERS_01",
+					"G_M_M_UNIBANDITOS_01",
+					"U_M_M_BHT_ODRISCOLLSLEEPING",
+					"RE_STREET_FIGHT_MALES_01",
+					"MP_G_M_M_BOUNTYHUNTERS_01",
+					"U_M_M_BHT_ODRISCOLLMAULED",
+					"U_M_M_BHT_ODRISCOLLDRUNK"
+					},
+				spawnenemies = {
+					{x = 1255, y = 1153, z = 151, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+					{x = 1250, y = 1160, z = 151, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+					{x = 1271, y = 1157, z = 150, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+					{x = 1249, y = 1174, z = 150, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+					{x = 1233, y = 1166, z = 150, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75},
+					{x = 1241, y = 1155, z = 151, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 2, accuracy = 75},
+					{x = 1257, y = 1168, z = 149, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 2, accuracy = 75},
+					{x = 1300, y = 1185, z = 150, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85},
+					{x = 1240, y = 1192, z = 149, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85},
+					{x = 1281, y = 1164, z = 150, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85},
+					}
+				},
+
+				[38] = {
+					firstname = "Donald",
+					secondname = "Biden",
+					image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+					city = "Eris Field",
+					type = "killer", -- SELECT ONLY "arrest" or "killer"
+					moneymin = 160,
+					moneymax = 210,
+					showblips = true,
+					timeO = 18, -- time when ped's spawn
+					timeC = 3, -- time after ped's don't spawn    
+					pos = {1201, -568, 69},
+					enemies = {
+						"G_M_M_BOUNTYHUNTERS_01",
+						"G_M_M_UNIBANDITOS_01",
+						"U_M_M_BHT_ODRISCOLLSLEEPING",
+						"RE_STREET_FIGHT_MALES_01",
+						"MP_G_M_M_BOUNTYHUNTERS_01",
+						"U_M_M_BHT_ODRISCOLLMAULED",
+						"U_M_M_BHT_ODRISCOLLDRUNK"
+						},
+					spawnenemies = {
+						{x = 1210, y = -558, z = 70, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+						{x = 1209, y = -572, z = 67, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+						{x = 1185, y = -564, z = 70, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85}, 
+						{x = 1183, y = -554, z = 71, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+						{x = 1175, y = -531, z = 70, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 85},
+						{x = 1191, y = -529, z = 71, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 85},
+						{x = 1203, y = -537, z = 71, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 85},
+						{x = 1214, y = -545, z = 71, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 85},
+						{x = 1227, y = -542, z = 70, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 85},
+						{x = 1235, y = -550, z = 68, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 85},
+						}
+					},
 	-- Lendario --
 
 	[30] = {
@@ -1240,7 +1674,7 @@ BountyMissions = {
 		firstname = "Lendário",
 		secondname = "Homem Lobo",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Ambarino",
+		city = "Ambarino Glacier",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 450,
 		moneymax = 800,
@@ -1546,6 +1980,7 @@ BountyMissions = {
 			{x = -4196, y = -3420, z = 38, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
 			}
 		},
+
 	},
 }
 
