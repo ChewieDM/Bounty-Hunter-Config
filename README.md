@@ -14,7 +14,7 @@ Recomendado ser feito de 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de 
 > Essa dificuldade não é brincadeira, inimigos tem uma precisão mortal.
 
 # Locais de Missões
-![Bounties RedM](https://cdn.discordapp.com/attachments/1203390027456053260/1264311968249024733/redm_bounties.png?ex=669d69c7&is=669c1847&hm=ea6a8bf55a8d83e079382c25f23481b71da159bcfe5770634ee54152e9288426&)
+![Bounties RedM]()
 
 - Amarelo: Bounties lendárias
 - Laranja: Bounties adicionadas
