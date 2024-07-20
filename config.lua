@@ -784,13 +784,11 @@ BountyMissions = {
 		arrestnpcwep = "WEAPON_SHOTGUN_SAWEDOFF",
 		pos = {-3321.158, -2862.516, -7.218},
 		enemies = {
-			"G_M_M_BOUNTYHUNTERS_01",
-			"G_M_M_UNIBANDITOS_01",
-			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"RE_STREET_FIGHT_MALES_01",
-			"MP_G_M_M_BOUNTYHUNTERS_01",
-			"U_M_M_BHT_ODRISCOLLMAULED",
-			"U_M_M_BHT_ODRISCOLLDRUNK"
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
 			},
 		spawnenemies = {
 			{x = -3317.5146484375, y = -2857.935791015625, z = -7.12080192565918, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 50},
@@ -819,13 +817,11 @@ BountyMissions = {
 		timeC = 20, -- time after ped's don't spawn
 		pos = {-3842.241, -3009.168, -7.8008165359497},
 		enemies = {
-			"G_M_M_BOUNTYHUNTERS_01",
-			"G_M_M_UNIBANDITOS_01",
-			"U_M_M_BHT_ODRISCOLLSLEEPING",
-			"RE_STREET_FIGHT_MALES_01",
-			"MP_G_M_M_BOUNTYHUNTERS_01",
-			"U_M_M_BHT_ODRISCOLLMAULED",
-			"U_M_M_BHT_ODRISCOLLDRUNK"
+			"mp_fm_bounty_horde_males_01",
+			"u_m_m_bht_banditomine",
+			"u_m_m_bht_banditoshack",
+			"MP_FM_BOUNTYTARGET_MALES_DLC008_01",
+			"u_m_m_riodonkeyrider_01"
 			},
 		spawnenemies = {
 			{x = -3845.37353515625, y = -3013.224365234375, z = -7.86573982238769, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 50},
