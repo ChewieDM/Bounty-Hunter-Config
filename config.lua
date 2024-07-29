@@ -1742,21 +1742,21 @@ BountyMissions = {
 			{x = -2457.350, y = 846.350, z = 143.350, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 90},
 			{x = -2458.350, y = 855.350, z = 145.350, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 90},
 			{x = -2471.350, y = 843.350, z = 144.350, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 90},
-			{x = -2526.350, y = 853.350, z = 158.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, -
-			{x = -2527.350, y = 852.350, z = 158.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, -
-			{x = -2529.350, y = 850.350, z = 158.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, -
+			{x = -2526.350, y = 853.350, z = 158.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
+			{x = -2527.350, y = 852.350, z = 158.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
+			{x = -2529.350, y = 850.350, z = 158.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
 			{x = -2531.350, y = 848.350, z = 157.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
 			{x = -2514.350, y = 826.350, z = 148.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
 			{x = -2514.350, y = 830.350, z = 148.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
 			{x = -2519.350, y = 810.350, z = 147.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
 			{x = -2516.350, y = 808.350, z = 147.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
 			{x = -2511.350, y = 805.350, z = 145.350, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},
-			{x = -2494.350, y = 859.350, z = 148.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75}, ----
+			{x = -2494.350, y = 859.350, z = 148.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},
 			{x = -2495.350, y = 855.350, z = 147.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},
 			{x = -2492.350, y = 862.350, z = 149.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},
 			{x = -2495.350, y = 863.350, z = 151.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},
 			{x = -2502.350, y = 858.350, z = 151.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},
-			{x = -2500.350, y = 867.350, z = 154.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},	
+			{x = -2500.350, y = 867.350, z = 154.350, weapon ="WEAPON_REVOLVER_LEMAT", style = 3, accuracy = 75},
 			}
 		},
 	[34] = {
