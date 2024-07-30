@@ -1579,7 +1579,7 @@ BountyMissions = {
 	[30] = {
 		firstname = "Lendário",
 		secondname = "Barão das Carroças",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351453175349310/barao.png?ex=669d8e8c&is=669c3d0c&hm=f5795065b3b303ede48653921e1cdaf6c10f70b42da188124515551ee1d908d9&",
+		image = "https://i.imgur.com/aqWT0DP.png",
 		city = "Saint Denis",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 300,
@@ -1628,7 +1628,7 @@ BountyMissions = {
 	[31] = {
 		firstname = "Lendário",
 		secondname = "Olhos de Águia",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351455343673374/olhos.png?ex=669d8e8d&is=669c3d0d&hm=98be5450d712d5cae5d9b322d38bd691fd0c68465efeaf7e0db15e34abd11b42&",
+		image = "https://i.imgur.com/uI4jWZb.png",
 		city = "Bolger Glade",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 400,
@@ -1638,7 +1638,7 @@ BountyMissions = {
 		timeC = 3, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_M_M_LEGENDARYBOUNTY_003",
 		arrestnpcwep = "WEAPON_SNIPERRIFLE_ROLLINGBLOCK",
-		pos = {1502, -1834, 57},
+		pos = {1502.350, -1834.350, 57.350},
 		enemies = {
 			"mp_u_m_m_bountytarget_028",
 			"mp_fm_knownbounty_guards_01",
@@ -1674,7 +1674,7 @@ BountyMissions = {
 	[32] = {
 		firstname = "Lendário",
 		secondname = "Homem Lobo",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351454953734214/lobo.png?ex=669d8e8d&is=669c3d0d&hm=d41ad8840200de1f0c4b7b3b8a7512bed05516544263c59b138449b13a21b8aa&",
+		image = "https://i.imgur.com/83t47cX.png",
 		city = "Ambarino Glacier",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 450,
@@ -1716,7 +1716,7 @@ BountyMissions = {
 	[33] = {
 		firstname = "Lendária",
 		secondname = "Viúva Negra",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351456463556638/viuva.png?ex=669d8e8d&is=669c3d0d&hm=9b1c7e4bb122e12bb0dd5e7d17ee08dbb26359048f527618f47e336a30ffd000&",
+		image = "https://i.imgur.com/yUS2kpm.png",
 		city = "Little Creek River",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 400,
@@ -1762,7 +1762,7 @@ BountyMissions = {
 	[34] = {
 		firstname = "Lendaria",
 		secondname = "Toca dos Bandidos",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351455947784192/toca.png?ex=669d8e8d&is=669c3d0d&hm=878d893d47a9e127c5a073025b430ddc3781dc0daa2c2ec62c97f6c9f4322f9a&",
+		image = "https://i.imgur.com/QzgvXtS.png",
 		city = "Thieves Landing",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 450,
@@ -1816,7 +1816,7 @@ BountyMissions = {
 	[35] = {
 		firstname = "Lendário",
 		secondname = "Javier Pascual",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351453586395300/javier.png?ex=669d8e8d&is=669c3d0d&hm=149c68fbe8dc7bef878fc721f9b917df91d1a32df555a1f11d69fb52a13f9d2f&",
+		image = "https://i.imgur.com/RXUWEDd.png",
 		city = "Twin Rocks",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 350,
@@ -1867,7 +1867,7 @@ BountyMissions = {
 	[36] = {
 		firstname = "Lendário",
 		secondname = "Juan Montoya",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351453997301931/juan.png?ex=669d8e8d&is=669c3d0d&hm=bfe55a1c99511e72c4e5e2c1b21e27a33e40b7bfbbd0f1ec4903fefe47eba96f&",
+		image = "https://i.imgur.com/UH42i5F.png",
 		city = "Rathskeller Fork",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 320,
@@ -1918,7 +1918,7 @@ BountyMissions = {
 	[37] = {
 		firstname = "Lendária",
 		secondname = "Lady Muerte",
-		image = "https://cdn.discordapp.com/attachments/729759555914956853/1264351454588698745/lady.png?ex=669d8e8d&is=669c3d0d&hm=65930428822f63044d38dbd65d9c0c886044549c8757cbc029c8669664fe8c6a&",
+		image = "https://i.imgur.com/9y1JARD.png",
 		city = "Fort Mercer",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 300,
@@ -1984,7 +1984,7 @@ BountyMissions = {
 	[38] = {
 		firstname = "Lendários",
 		secondname = "Homens de Lata",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.imgur.com/RQGMERC.png",
 		city = "Brandywine Drop",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 300,
