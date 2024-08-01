@@ -16,8 +16,8 @@ AddBountyPass = "1995",
 RepSystem = true,
 RepAmount = 50,
 
-MissionAutoTime = 1200, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
-DieNpcTime = 10, -- (30 seconds) Delete npc's after the player who took the bounty is dead !
+MissionAutoTime = 300, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
+DieNpcTime = 30, -- (30 seconds) Delete npc's after the player who took the bounty is dead !
 DieBountyTime = 10, -- (60 seconds) Delete npc's after you killed the bounty target !
 AlliveNpcTime = 60, -- (90 seconds) Delete npc's after you killed them all and finished the mission!
 BountyBlip = 1481032477, -- Blip Type to Kill Bounty
@@ -30,7 +30,7 @@ Texts = {
     ["tittle_notification"] = "MISSÃO DE RECOMPENSA",
     ["bm_bountyblip"] = "ZONA DE MISSÃO",
     ["bm_arrestblip"] = "RECOMPENSA DE PRISÃO",
-    ["bm_startkb"] = "Você acabou de começar a missão, vá para o local para matar todos os fora-da-lei!",
+    ["bm_startkb"] = "Você acabou de começar a missão, vá para o local e elimine os fora-da-lei!",
     ["bm_startab"] = "Você acabou de começar a missão, vá para o local para prender a recompensa!",
     ["bm_enemiesband"] = "Complete sua missão matando todos, você chegou ao local onde está",
     ["bm_arrestband"] = "Prenda o líder para completar sua missão, você chegou ao local onde está",
@@ -41,17 +41,17 @@ Texts = {
     ["bm_webhre"] = "RECOMPENSA:",
     ["bm_webhk"] = "missão concluída e recebeu",
     ["bm_inmission"] = "Vá para o ponto de verificação marcado para completar esta recompensa!",
-    ["bm_failed"] = "Você matou a recompensa e falhou nesta missão!",
+    ["bm_failed"] = "Você matou a recompensa, ou morreu, e falhou nesta missão!",
     ["bm_hours"] = "Você pode encontrá-los entre as horas",
 },
 
 BountyMissions = {
 
-	-- Dificuldades: Facil, Médio , Dificil e Lendario. --
+	-- Dificuldades: Facil, Médio , Dificil e Lendário. --
 	-- Facil: 1 a 2 pessoas, poucos inimigos e utilizam revolveres, armas brancas e repetidora carabina; Podem ser feitas durante o dia todo até a noite--
 	-- Médio: 3 a 4 pessoas, alguns inimigos e utilizam repetidores e shotguns; Horarios mais curtos --
 	-- Dificil: 4 a 6 pessoas, bastante inimigos e utilizam rifle de ferrolho, carcanos, e todo tipo de arma potente. Horarios perigosos e janela menor de tempo para começar, requer mais planejamento --
-	-- Lendario: 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de armamento e suas posições e comportamentos são pensados para o jogador utilizar estratégias e diversos tipos de equipamento para conseguir completar. Blips de inimigos não aparecem no mapa, Alvo da missão é ped "unico" e diferente. Só é possivel fazer um numero bem limitado por dia, pois a janela para começar a missão é poucas horas apenas, requerindo extremo planejamento. --
+	-- Lendário: 6 a 10 pessoas, muitos inimigos, utilizam todo tipo de armamento e suas posições e comportamentos são pensados para o jogador utilizar estratégias e diversos tipos de equipamento para conseguir completar. Blips de inimigos não aparecem no mapa, Alvo da missão é ped "unico" e diferente. Só é possivel fazer um numero bem limitado por dia, pois a janela para começar a missão é poucas horas apenas, requerindo extremo planejamento. --
 	-- Comportamento de NPC:
 	-- 0 - Parado (Fica no Lugar) - Otimo para snipers e emboscadas de 12 -
  	-- 1 - Defensive (Vai procurar cbertura e atirar sem se expor muito)
@@ -164,7 +164,7 @@ BountyMissions = {
 		firstname = "Coleman",
 		secondname = "Dove",
         image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Roanoke Valley",
+		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
         moneymin = 20,
 		moneymax = 50,
@@ -229,7 +229,7 @@ BountyMissions = {
 		firstname = "Frank",
 		secondname = "Clayton",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Roanoke Valley",
+		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 20,
 		moneymax = 40,
@@ -352,7 +352,7 @@ BountyMissions = {
 		firstname = "John",
 		secondname = "Wesley",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Kamassa River",
+		city = "Kamassa \n River",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
 		moneymax = 40,
@@ -423,8 +423,8 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Hennigan's Stead",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 25,
-		moneymax = 50,
+		moneymin = 35,
+		moneymax = 70,
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
 		timeC = 22, -- time after ped's don't spawn    
@@ -457,7 +457,7 @@ BountyMissions = {
 		firstname = "Jorge",
 		secondname = "Vasquez",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Moonstone Pond",
+		city = "Moonstone \n Pond",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
 		moneymax = 50,
@@ -527,7 +527,7 @@ BountyMissions = {
 		firstname = "Pablo",
 		secondname = "Fuentes",
         image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Roanoke Valley",
+		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
         moneymin = 50,
 		moneymax = 80,
@@ -632,7 +632,7 @@ BountyMissions = {
 		firstname = "Luke",
 		secondname = "Shane",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "The Heartlands",
+		city = "The \n Heartlands",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 60,
 		moneymax = 90,
@@ -884,7 +884,7 @@ BountyMissions = {
 		city = "Hennigan's Stead",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
-		moneymax = 80,
+		moneymax = 100,
 		showblips = true,
 		timeO = 13, -- time when ped's spawn
 		timeC = 20, -- time after ped's don't spawn    
@@ -918,7 +918,7 @@ BountyMissions = {
 		firstname = "Jorge",
 		secondname = "Vasquez",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Moonstone Pond",
+		city = "Moonstone \n Pond",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
 		moneymax = 80,
@@ -1110,7 +1110,7 @@ BountyMissions = {
 		firstname = "Cassidy",
 		secondname = "Clay",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Roanoke Valley",
+		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 220,
 		moneymax = 300,
@@ -1162,7 +1162,7 @@ BountyMissions = {
 		firstname = "Dallas",
 		secondname = "Bo",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Roanoke Valley",
+		city = "Roanoke \n Valley",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 260,
 		moneymax = 310,
@@ -1262,7 +1262,7 @@ BountyMissions = {
 		firstname = "Flynn",
 		secondname = "Earle",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Roanoke Valley",
+		city = "Roanoke \n Valley",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 150,
 		moneymax = 210,
@@ -1432,7 +1432,7 @@ BountyMissions = {
 		firstname = "Steve",
 		secondname = "Dias",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Benedict Point",
+		city = "Benedict \n Point",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 140,
 		moneymax = 190,
@@ -1475,7 +1475,7 @@ BountyMissions = {
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
 		city = "Hennigan's Stead",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 160,
+		moneymin = 120,
 		moneymax = 210,
 		showblips = true,
 		timeO = 18, -- time when ped's spawn
@@ -1510,7 +1510,7 @@ BountyMissions = {
 		firstname = "Jorge",
 		secondname = "Vasquez",
 		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
-		city = "Moonstone Pond",
+		city = "Moonstone \n Pond",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 160,
 		moneymax = 210,
@@ -1580,7 +1580,7 @@ BountyMissions = {
 			{x = 1187.39, y = -527.46, z = 71.09, weapon ="WEAPON_REPEATER_HENRY", style = 1, accuracy = 85},
 			}
 		},
-	-- Lendario --
+	-- Lendário --
 
 	[30] = {
 		firstname = "Lendário",
@@ -1639,7 +1639,7 @@ BountyMissions = {
 		firstname = "Lendário",
 		secondname = "Olhos de Águia",
 		image = "https://i.ibb.co/rwPLK03/olhos.png",
-		city = "Bolger Glade",
+		city = "Bolger \n Glade",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 400,
 		moneymax = 700,
@@ -1685,7 +1685,7 @@ BountyMissions = {
 		firstname = "Lendário",
 		secondname = "Homem Lobo",
 		image = "https://i.ibb.co/BrYKmsc/lobo.png",
-		city = "Ambarino Glacier",
+		city = "Ambarino \n Glacier",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 450,
 		moneymax = 800,
@@ -1773,7 +1773,7 @@ BountyMissions = {
 		firstname = "Lendaria",
 		secondname = "Toca dos Bandidos",
 		image = "https://i.ibb.co/phmp8cP/toca.png",
-		city = "Thieves Landing",
+		city = "Thieves \n Landing", 
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 450,
 		moneymax = 800,
@@ -1878,7 +1878,7 @@ BountyMissions = {
 		firstname = "Lendário",
 		secondname = "Juan Montoya",
 		image = "https://i.ibb.co/znJ53W9/juan.png",
-		city = "Rathskeller Fork",
+		city = "Rathskeller \n Fork",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 320,
 		moneymax = 800,
@@ -1998,11 +1998,11 @@ BountyMissions = {
 		firstname = "Lendários",
 		secondname = "Homens de Lata",
 		image = "https://i.ibb.co/ys6fvkv/lata.png",
-		city = "Brandywine Drop",
-		type = "arrest", -- SELECT ONLY "arrest" or "killer"
+		city = "Brandywine \n Drop",
+		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 300,
 		moneymax = 750,
-		showblips = false,
+		showblips = true,
 		timeO = 6, -- time when ped's spawn
 		timeC = 8, -- time after ped's don't spawn    
 		arrestnpc = "mp_g_m_m_armoredjuggernauts_01",
