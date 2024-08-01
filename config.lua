@@ -62,7 +62,7 @@ BountyMissions = {
 	[1] = {
 		firstname = "Alonzo",
 		secondname = "Eager",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Fort Wallace",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
@@ -98,7 +98,7 @@ BountyMissions = {
 	[2] = {
 		firstname = "Austin",
 		secondname = "Majestic",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Fort Wallace",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 35,
@@ -131,7 +131,7 @@ BountyMissions = {
 	[3] = {
 		firstname = "Carson",
 		secondname = "Butcher",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Grizzlies West",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
@@ -163,7 +163,7 @@ BountyMissions = {
 	[4] = {
 		firstname = "Coleman",
 		secondname = "Dove",
-        image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+        image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
         moneymin = 20,
@@ -193,7 +193,7 @@ BountyMissions = {
 	[5] = {
 		firstname = "Lawrence", -- First Name 
 		secondname = "Fierce", -- Last Name
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Van Horn", -- Bounty Location
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 35, -- Money Minim
@@ -228,7 +228,7 @@ BountyMissions = {
 	[6] = { -- adicionar mais peds -- killer
 		firstname = "Frank",
 		secondname = "Clayton",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 20,
@@ -257,7 +257,7 @@ BountyMissions = {
 	[7] = {
 		firstname = "Luke", -- First Name 
 		secondname = "Famous", -- Last Name
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Van Horn", -- Bounty Location
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 15, -- Money Minim
@@ -287,7 +287,7 @@ BountyMissions = {
 	[8] = {
 		firstname = "John",
 		secondname = "Morgan",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Kamassa Fort",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 30,
@@ -321,7 +321,7 @@ BountyMissions = {
 	[9] = {
 		firstname = "Tom",
 		secondname = "Shelby",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Lagras",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 20,
@@ -351,7 +351,7 @@ BountyMissions = {
 	[10] = {
 		firstname = "John",
 		secondname = "Wesley",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Kamassa \n River",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
@@ -386,7 +386,7 @@ BountyMissions = {
 	[39] = {
 		firstname = "Steve",
 		secondname = "Dias",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Benedict Point",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 20,
@@ -420,7 +420,7 @@ BountyMissions = {
 	[40] = {
 		firstname = "Daniel",
 		secondname = "Paladíno",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Hennigan's Stead",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 35,
@@ -456,7 +456,7 @@ BountyMissions = {
 	[41] = {
 		firstname = "Jorge",
 		secondname = "Vasquez",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Moonstone \n Pond",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
@@ -490,7 +490,7 @@ BountyMissions = {
 	[42] = {
 		firstname = "Donald",
 		secondname = "Biden",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Eris Field",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 25,
@@ -526,7 +526,7 @@ BountyMissions = {
 	[11] = {
 		firstname = "Pablo",
 		secondname = "Fuentes",
-        image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+        image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
         moneymin = 50,
@@ -560,7 +560,7 @@ BountyMissions = {
 	[12] = {
 		firstname = "Jesse",
 		secondname = "James",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Kamassa Fort",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 60,
@@ -599,7 +599,7 @@ BountyMissions = {
 	[13] = {
 		firstname = "John",
 		secondname = "O'Driscoll",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Caliga Hall",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 60,
@@ -631,7 +631,7 @@ BountyMissions = {
 	[14] = {
 		firstname = "Luke",
 		secondname = "Shane",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "The \n Heartlands",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 60,
@@ -666,7 +666,7 @@ BountyMissions = {
 	[15] = {
 		firstname = "Louis",
 		secondname = "West",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "BlackWater",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 30,
@@ -700,7 +700,7 @@ BountyMissions = {
 	[16] = {
 		firstname = "Harry",
 		secondname = "Ruben",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Strawberry",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
@@ -735,7 +735,7 @@ BountyMissions = {
 	[17] = {
 		firstname = "Lawrence",
 		secondname = "Holt",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Manzanita Post",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 45,
@@ -772,7 +772,7 @@ BountyMissions = {
 	[18] = {
 		firstname = "Levi",
 		secondname = "Earle",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Armadillo",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 45,
@@ -807,7 +807,7 @@ BountyMissions = {
 	[19] = {
 		firstname = "Logan",
 		secondname = "Riley",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Armadillo",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 30,
@@ -840,7 +840,7 @@ BountyMissions = {
 	[43] = {
 		firstname = "Steve",
 		secondname = "Dias",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Benedict Point",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
@@ -880,7 +880,7 @@ BountyMissions = {
 	[44] = {
 		firstname = "Daniel",
 		secondname = "Paladíno",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Hennigan's Stead",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
@@ -917,7 +917,7 @@ BountyMissions = {
 	[45] = {
 		firstname = "Jorge",
 		secondname = "Vasquez",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Moonstone \n Pond",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
@@ -952,7 +952,7 @@ BountyMissions = {
 	[46] = {
 		firstname = "Donald",
 		secondname = "Biden",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Eris Field",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 40,
@@ -989,7 +989,7 @@ BountyMissions = {
 	[20] = {
 		firstname = "Billy", -- First Name 
 		secondname = "Kid", -- Last Name
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Fort Wallace", -- Bounty Location
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 140, -- Money Minim
@@ -1032,7 +1032,7 @@ BountyMissions = {
 	[21] = {
 		firstname = "Bill",
 		secondname = "Bones",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Grizzlies West",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 160,
@@ -1073,7 +1073,7 @@ BountyMissions = {
 	[22] = {
 		firstname = "Carson",
 		secondname = "Butcher",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Grizzlies West",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 180,
@@ -1111,7 +1111,7 @@ BountyMissions = {
 	[23] = {
 		firstname = "Cassidy",
 		secondname = "Clay",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Roanoke \n Valley",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 220,
@@ -1163,7 +1163,7 @@ BountyMissions = {
 	[24] = {
 		firstname = "Dallas",
 		secondname = "Bo",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Roanoke \n Valley",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 260,
@@ -1217,7 +1217,7 @@ BountyMissions = {
 	[25] = {
 		firstname = "Flynn", -- First Name 
 		secondname = "West", -- Last Name
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Van Horn", -- Bounty Location
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 150, -- Money Minim
@@ -1263,7 +1263,7 @@ BountyMissions = {
 	[26] = {
 		firstname = "Flynn",
 		secondname = "Earle",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Roanoke \n Valley",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 150,
@@ -1304,7 +1304,7 @@ BountyMissions = {
 	[27] = {
 		firstname = "Arthur",
 		secondname = "Reuben",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Kamassa Fort",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 160,
@@ -1346,7 +1346,7 @@ BountyMissions = {
 	[28] = {
 		firstname = "Arthur",
 		secondname = "Ranger",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Lagras",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 160,
@@ -1389,7 +1389,7 @@ BountyMissions = {
 	[29] = {
 		firstname = "Porter",
 		secondname = "Ray",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Lagras",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 160,
@@ -1433,7 +1433,7 @@ BountyMissions = {
 	[47] = {
 		firstname = "Steve",
 		secondname = "Dias",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Benedict \n Point",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 140,
@@ -1474,7 +1474,7 @@ BountyMissions = {
 	[48] = {
 		firstname = "Daniel",
 		secondname = "Paladíno",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Hennigan's Stead",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 120,
@@ -1511,7 +1511,7 @@ BountyMissions = {
 	[49] = {
 		firstname = "Jorge",
 		secondname = "Vasquez",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Moonstone \n Pond",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 160,
@@ -1551,7 +1551,7 @@ BountyMissions = {
 	[50] = {
 		firstname = "Donald",
 		secondname = "Biden",
-		image = "https://media.discordapp.net/attachments/953700577412534352/1155490416662151188/hey_yo.png?width=700&height=676",
+		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Eris Field",
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 120,
