@@ -16,7 +16,7 @@ AddBountyPass = "1995",
 RepSystem = true,
 RepAmount = 50,
 
-MissionAutoTime = 300, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
+MissionAutoTime = 450, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
 DieNpcTime = 30, -- (30 seconds) Delete npc's after the player who took the bounty is dead !
 DieBountyTime = 10, -- (60 seconds) Delete npc's after you killed the bounty target !
 AlliveNpcTime = 60, -- (90 seconds) Delete npc's after you killed them all and finished the mission!
