@@ -1644,7 +1644,7 @@ BountyMissions = {
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 400,
 		moneymax = 700,
-		showblips = true,
+		showblips = false,
 		timeO = 1, -- time when ped's spawn
 		timeC = 3, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_M_M_LEGENDARYBOUNTY_003",
@@ -1656,30 +1656,78 @@ BountyMissions = {
 			"u_m_m_orpguard_01"
 			},
 		spawnenemies = {
-			{x = 1494.62, y = -1835.02, z = 55.93, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1499.60, y = -1839.39, z = 56.82, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1506.66, y = -1835.42, z = 56.01, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1503.87, y = -1825.45, z = 56.21, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1491.57, y = -1816.65, z = 54.09, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1495.70, y = -1815.23, z = 54.20, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1505.56, y = -1810.92, z = 54.18, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1520.15, y = -1808.36, z = 53.59, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1529.61, y = -1815.16, z = 52.41, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1517.27, y = -1817.53, z = 53.45, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1486.73, y = -1825.84, z = 53.96, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1474.86, y = -1839.58, z = 52.78, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1483.41, y = -1841.91, z = 52.84, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1504.71, y = -1854.72, z = 58.37, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1518.89, y = -1852.81, z = 56.18, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1520.81, y = -1827.96, z = 50.75, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1512.51, y = -1835.15, z = 52.23, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1497.13, y = -1842.25, z = 54.48, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1480.09, y = -1824.90, z = 55.33, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1519.73, y = -1813.89, z = 54.60, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1476.47, y = -1851.84, z = 55.63, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1470.46, y = -1846.69, z = 55.92, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1475.10, y = -1807.57, z = 55.20, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
-			{x = 1526.79, y = -1803.83, z = 53.40, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89}, 
+			{x = 1494.62, y = -1835.02, z = 55.93, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1499.60, y = -1839.39, z = 56.82, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1506.66, y = -1835.42, z = 56.01, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1503.87, y = -1825.45, z = 56.21, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1491.57, y = -1816.65, z = 54.09, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1495.70, y = -1815.23, z = 54.20, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1505.56, y = -1810.92, z = 54.18, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1520.15, y = -1808.36, z = 53.59, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1529.61, y = -1815.16, z = 52.41, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1517.27, y = -1817.53, z = 53.45, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1486.73, y = -1825.84, z = 53.96, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1474.86, y = -1839.58, z = 52.78, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1483.41, y = -1841.91, z = 52.84, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1504.71, y = -1854.72, z = 58.37, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1518.89, y = -1852.81, z = 56.18, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1520.81, y = -1827.96, z = 50.75, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1512.51, y = -1835.15, z = 52.23, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1497.13, y = -1842.25, z = 54.48, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1480.09, y = -1824.90, z = 55.33, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1519.73, y = -1813.89, z = 54.60, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1476.47, y = -1851.84, z = 55.63, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1470.46, y = -1846.69, z = 55.92, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1475.10, y = -1807.57, z = 55.20, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, 
+			{x = 1526.79, y = -1803.83, z = 53.40, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 89}, -- Snipers
+			{x = 1540.38, y = -1778.83, z = 54.83, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1546.19, y = -1782.32, z = 54.04, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1554.00, y = -1787.22, z = 53.03, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1569.82, y = -1796.82, z = 51.78, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1576.95, y = -1801.41, z = 51.46, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1553.90, y = -1853.40, z = 50.42, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1549.09, y = -1858.47, z = 50.85, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1517.32, y = -1882.58, z = 54.73, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1490.02, y = -1886.89, z = 50.17, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1572.68, y = -1817.74, z = 51.33, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1558.36, y = -1839.55, z = 50.41, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1554.21, y = -1844.90, z = 50.79, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89},
+			{x = 1490.07, y = -1859.51, z = 53.02, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, -- repetidor
+			{x = 1510.91, y = -1823.57, z = 52.92, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100},
+			{x = 1517.85, y = -1827.77, z = 51.39, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100},
+			{x = 1523.54, y = -1817.62, z = 52.95, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100},
+			{x = 1513.00, y = -1811.43, z = 52.88, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, -- 12
+			{x = 1462.30, y = -1784.59, z = 57.05, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1460.23, y = -1804.44, z = 55.61, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1450.49, y = -1814.87, z = 56.14, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1467.42, y = -1770.33, z = 58.93, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 0, accuracy = 89},
+			{x = 1524.98, y = -1768.84, z = 56.28, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},-- rush inicio
+			{x = 1494.78, y = -1773.10, z = 57.11, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1470.84, y = -1791.69, z = 56.12, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1466.96, y = -1831.31, z = 53.62, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1498.20, y = -1803.43, z = 55.22, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1521.40, y = -1797.29, z = 54.10, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1505.27, y = -1798.48, z = 54.98, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1500.70, y = -1801.71, z = 55.31, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1496.61, y = -1805.43, z = 54.92, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1489.10, y = -1811.81, z = 54.54, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1483.93, y = -1814.69, z = 54.48, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1478.81, y = -1817.33, z = 54.84, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75},
+			{x = 1536.42, y = -1808.21, z = 52.50, weapon ="WEAPON_PISTOL_MAUSER", style = 2, accuracy = 75}, -- rush fim
+			{x = 1488.25, y = -1763.16, z = 58.84, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1475.35, y = -1777.76, z = 57.75, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1471.38, y = -1790.49, z = 56.32, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1459.76, y = -1803.84, z = 55.62, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1505.89, y = -1777.41, z = 56.28, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1515.20, y = -1767.84, z = 57.06, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, -- estatico
+			{x = 1587.56, y = -1839.04, z = 58.55, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 100}, -- bolt janela
+
+			
+			
+			
+			
+			
+			
 			}
 		},
 	[32] = {
