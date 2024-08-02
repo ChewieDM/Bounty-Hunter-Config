@@ -16,13 +16,13 @@ AddBountyPass = "1995",
 RepSystem = true,
 RepAmount = 50,
 
-MissionAutoTime = 450, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
+MissionAutoTime = 600, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
 DieNpcTime = 30, -- (30 seconds) Delete npc's after the player who took the bounty is dead !
 DieBountyTime = 10, -- (60 seconds) Delete npc's after you killed the bounty target !
 AlliveNpcTime = 60, -- (90 seconds) Delete npc's after you killed them all and finished the mission!
 BountyBlip = 1481032477, -- Blip Type to Kill Bounty
 BountyZone = 100.0, -- Blip Zone Area 
-NearZone = 100, -- When to spawn the npc near location ! <-- 120 da a distancia do centro do minimapa até a borda onde o blip do local da missão começa a aparecer, é uma boa distancia.
+NearZone = 120, -- When to spawn the npc near location ! <-- 120 da a distancia do centro do minimapa até a borda onde o blip do local da missão começa a aparecer, é uma boa distancia.
 TooFarAway = 550, -- Distance to Mission failed ! <- Distancia de falha, se precisar correr tu vai tomar tiro nas costas, essa distancia é boa para conseguir fugir caso de ruim, aumentar ou diminuir conforme necessario.
 ServerYear = 1890, -- Server Year
 
@@ -1718,16 +1718,9 @@ BountyMissions = {
 			{x = 1475.35, y = -1777.76, z = 57.75, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
 			{x = 1471.38, y = -1790.49, z = 56.32, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
 			{x = 1459.76, y = -1803.84, z = 55.62, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
-			{x = 1505.89, y = -1777.41, z = 56.28, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, 
+			{x = 1505.89, y = -1777.41, z = 56.28, weapon ="WEAPON_REPEATER_WINCHESTER,", style = 0, accuracy = 89}, 
 			{x = 1515.20, y = -1767.84, z = 57.06, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 89}, -- estatico
 			{x = 1587.56, y = -1839.04, z = 58.55, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 100}, -- bolt janela
-
-			
-			
-			
-			
-			
-			
 			}
 		},
 	[32] = {
@@ -2056,30 +2049,66 @@ BountyMissions = {
 		timeC = 8, -- time after ped's don't spawn    
 		arrestnpc = "mp_g_m_m_armoredjuggernauts_01",
 		arrestnpcwep = "WEAPON_REPEATER_HENRY",
-		pos = {2926.37, 2343.5, 158.31},
+		pos = {2846.72, 2257.79, 157.07},
 		enemies = {
 			"mp_g_m_m_armoredjuggernauts_01"
 			},
 		spawnenemies = {
-			{x = 2930.66, y = 2334.44, z = 158.37, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2932.64, y = 2325.95, z = 158.11, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2922.23, y = 2350.34, z = 157.17, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2917.26, y = 2361.09, z = 156.94, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2913.84, y = 2367.31, z = 157.23, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2898.76, y = 2372.04, z = 157.30, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2882.14, y = 2360.84, z = 157.75, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2882.14, y = 2360.84, z = 157.75, weapon ="WEAPON_REPEATER_HENRY", style = 2, accuracy = 85}, 
-			{x = 2851.19, y = 2323.26, z = 157.27, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100},
-			{x = 2855.23, y = 2329.98, z = 157.29, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100},
-			{x = 2844.21, y = 2337.28, z = 156.76, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100},
-			{x = 2900.73, y = 2341.63, z = 158.05, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100},
-			{x = 2921.95, y = 2310.64, z = 157.64, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100},
-			{x = 2921.95, y = 2310.64, z = 157.64, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
-			{x = 2925.09, y = 2302.65, z = 157.01, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
-			{x = 2917.69, y = 2292.04, z = 158.77, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
-			{x = 2913.12, y = 2296.01, z = 157.66, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
-			{x = 2915.58, y = 2309.07, z = 156.81, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
-			{x = 2912.42, y = 2295.34, z = 157.67, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 70},
+			{x = 2836.79, y = 2247.42, z = 156.98, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2831.75, y = 2242.29, z = 156.77, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2827.57, y = 2236.77, z = 156.80, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2822.86, y = 2230.08, z = 156.99, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2819.12, y = 2223.13, z = 156.95, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2811.85, y = 2210.04, z = 156.67, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2812.00, y = 2200.57, z = 156.85, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2818.49, y = 2195.92, z = 156.72, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2823.34, y = 2200.95, z = 156.58, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2830.96, y = 2210.58, z = 156.70, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2836.48, y = 2215.70, z = 156.64, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2840.18, y = 2221.33, z = 156.86, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2845.19, y = 2229.37, z = 156.71, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2848.57, y = 2238.55, z = 156.87, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2849.62, y = 2246.51, z = 156.83, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2833.14, y = 2170.17, z = 159.99, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2831.24, y = 2173.61, z = 159.98, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2829.43, y = 2176.25, z = 159.97, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2827.00, y = 2179.54, z = 159.96, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2824.64, y = 2182.56, z = 159.96, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2821.58, y = 2185.99, z = 159.97, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2810.40, y = 2196.89, z = 160.00, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2815.24, y = 2192.40, z = 159.98, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2803.92, y = 2201.99, z = 160.02, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2796.46, y = 2207.49, z = 160.03, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2787.51, y = 2212.98, z = 160.05, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85}, 
+			{x = 2780.97, y = 2216.94, z = 160.06, weapon ="WEAPON_RIFLE_BOLTACTION", style = 0, accuracy = 85},  -- bolt
+			{x = 2776.12, y = 2222.56, z = 156.61, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 0, accuracy = 100}, 
+			{x = 2771.11, y = 2211.76, z = 156.71, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 0, accuracy = 100}, 
+			{x = 2838.46, y = 2167.23, z = 156.82, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 0, accuracy = 100},  -- 12
+			{x = 2841.93, y = 2250.61, z = 156.99, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2844.48, y = 2248.51, z = 157.06, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2843.55, y = 2242.61, z = 156.87, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2838.70, y = 2243.40, z = 157.03, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2834.40, y = 2239.90, z = 156.76, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2837.59, y = 2230.19, z = 157.04, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2829.58, y = 2228.97, z = 157.02, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2829.30, y = 2222.44, z = 157.23, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2827.86, y = 2216.03, z = 157.14, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95}, 
+			{x = 2816.35, y = 2204.62, z = 156.78, weapon ="WEAPON_REVOLVER_DOUBLEACTION", style = 2, accuracy = 95},  -- rush
+			{x = 2876.82, y = 2267.63, z = 156.79, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2801.90, y = 2299.44, z = 157.89, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2777.85, y = 2275.37, z = 158.33, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2782.06, y = 2299.65, z = 158.34, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2859.69, y = 2190.85, z = 157.09, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2862.49, y = 2211.31, z = 157.54, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2870.80, y = 2249.96, z = 156.89, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90}, 
+			{x = 2872.45, y = 2246.56, z = 156.93, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 90},  -- carcano tatico
+			{x = 2898.63, y = 2272.03, z = 157.52, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, 
+			{x = 2901.15, y = 2263.70, z = 157.78, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, 
+			{x = 2905.06, y = 2277.08, z = 157.47, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, 
+			{x = 2811.29, y = 2321.40, z = 157.41, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, 
+			{x = 2812.40, y = 2314.43, z = 157.34, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, 
+			{x = 2808.68, y = 2316.72, z = 157.76, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, 
+			{x = 2814.65, y = 2306.11, z = 156.93, weapon ="WEAPON_SHOTGUN_SEMIAUTO", style = 3, accuracy = 100}, -- 12 rush
 			}
 		},
 
