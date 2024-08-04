@@ -2040,7 +2040,7 @@ BountyMissions = {
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
 		timeC = 11, -- time after ped's don't spawn    
-		arrestnpc = "MP_U_F_M_LEGENDARYBOUNTY_03",
+		arrestnpc = "MP_U_F_M_LEGENDARYBOUNTY_03", -- não buga (amém)
 		arrestnpcwep = "WEAPON_SHOTGUN_PUMP",
 		pos = {-4215.32, -3458.79, 41.53},
 		enemies = {
@@ -2084,6 +2084,22 @@ BountyMissions = {
 			{x = -4203.89, y = -3419.43, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
 			{x = -4220.73, y = -3444.23, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
 			{x = -4213.22, y = -3456.14, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
+			{x = -4200.65, y = -3461.78, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, -- win 1
+			{x = -4177.18, y = -3420.60, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 75},
+			{x = -4186.05, y = -3410.66, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 75},
+			{x = -4194.47, y = -3404.87, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 75},
+			{x = -4169.18, y = -3419.22, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 75},
+			{x = -4161.67, y = -3410.27, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 75},
+			{x = -4189.68, y = -3407.18, z = 37.14, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 75}, -- win 2
+			{x = -4213.56, y = -3432.24, z = 41.54, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75},
+			{x = -4215.79, y = -3436.23, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4217.69, y = -3440.78, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4219.34, y = -3444.23, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4221.62, y = -3448.93, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4217.91, y = -3453.20, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4212.49, y = -3455.31, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4206.97, y = -3457.90, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75},
+			{x = -4202.78, y = -3460.01, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 75}, -- win 0
 			{x = -4200.65, y = -3461.78, z = 41.53, weapon ="WEAPON_REPEATER_WINCHESTER", style = 1, accuracy = 75}, 
 			{x = -4188.33, y = -3429.18, z = 37.14, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
 			{x = -4206.61, y = -3422.79, z = 37.14, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
@@ -2096,8 +2112,29 @@ BountyMissions = {
 			{x = -4225.29, y = -3459.05, z = 37.12, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
 			{x = -4224.96, y = -3480.87, z = 37.14, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
 			{x = -4247.64, y = -3455.79, z = 41.31, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
+			{x = -4203.55, y = -3420.11, z = 37.09, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 100}, 
+			{x = -4194.35, y = -3462.16, z = 37.28, weapon ="WEAPON_REPEATER_WINCHESTER", style = 0, accuracy = 100}, 
+			{x = -4178.56, y = -3454.95, z = 41.47, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4214.59, y = -3502.30, z = 42.65, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4188.11, y = -3449.20, z = 44.55, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4194.47, y = -3452.61, z = 44.56, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4204.78, y = -3461.95, z = 45.35, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4200.93, y = -3465.20, z = 45.28, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4217.06, y = -3461.00, z = 44.90, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 100}, 
+			{x = -4232.24, y = -3455.63, z = 40.50, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
+			{x = -4241.91, y = -3455.05, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
+			{x = -4252.26, y = -3460.72, z = 37.10, weapon ="WEAPON_SHOTGUN_PUMP", style = 0, accuracy = 100}, 
+			{x = -4216.54, y = -3409.69, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4220.84, y = -3415.07, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4206.04, y = -3400.54, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4237.41, y = -3419.55, z = 36.92, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4242.87, y = -3422.52, z = 36.72, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4166.40, y = -3436.27, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4171.57, y = -3446.35, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
+			{x = -4174.58, y = -3454.29, z = 37.09, weapon ="WEAPON_SHOTGUN_PUMP", style = 2, accuracy = 100}, 
 			}
 		},
+
 	[38] = {
 		firstname = "Lendários",
 		secondname = "Homens de Lata",
