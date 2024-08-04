@@ -16,7 +16,7 @@ AddBountyPass = "1995",
 RepSystem = true,
 RepAmount = 50,
 
-MissionAutoTime = 600, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
+MissionAutoTime = 1800, -- every 60 minutes a new npc mission will be added ! <-- Se o servidor da RR 2x por dia, são 12 missões adicionadas, 60 minutos é muito tempo e corta a variação de missões.
 DieNpcTime = 30, -- (30 seconds) Delete npc's after the player who took the bounty is dead !
 DieBountyTime = 10, -- (60 seconds) Delete npc's after you killed the bounty target !
 AlliveNpcTime = 60, -- (90 seconds) Delete npc's after you killed them all and finished the mission!
@@ -359,7 +359,7 @@ BountyMissions = {
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
 		timeC = 22, -- time after ped's don't spawn    
-		arrestnpc = "mp_u_m_m_legendarybounty_005",
+		arrestnpc = "re_darkalleystabbing_males_01",
 		arrestnpcwep = "WEAPON_SHOTGUN_DOUBLEBARREL",
 		pos = {1875.951, -739.031, 41.697},
 		enemies = {
@@ -1397,7 +1397,7 @@ BountyMissions = {
 		showblips = true,
 		timeO = 18, -- time when ped's spawn
 		timeC = 3, -- time after ped's don't spawn    
-		arrestnpc = "mp_u_m_m_legendarybounty_007",
+		arrestnpc = "re_darkalleystabbing_males_01",
 		arrestnpcwep = "WEAPON_REPEATER_WINCHESTER",
 		pos = {2152.999, -639.030, 41.512},
 		enemies = {
@@ -1766,7 +1766,7 @@ BountyMissions = {
 		timeC = 12, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_M_M_LEGENDARYBOUNTY_004",
 		arrestnpcwep = "WEAPON_RIFLE_SPRINGFIELD",
-		pos = {-1574.86, 3127.67, 474.64},
+		pos = {-1574.86, 3127.67, 474.64}, {x = -1578.22, y = 3160.59, z = 480.26}
 		enemies = {
 			"G_M_M_BOUNTYHUNTERS_01",
 			"G_M_M_UNIBANDITOS_01",
@@ -1785,7 +1785,15 @@ BountyMissions = {
 			{x = -1575.25, y = 3122.98, z = 474.64, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 1, accuracy = 85}, 
 			{x = -1577.45, y = 3137.02, z = 478.35, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 2, accuracy = 85}, 
 			{x = -1574.13, y = 3143.05, z = 478.93, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 2, accuracy = 85}, 
-			{x = -1562.50, y = 3147.68, z = 477.49, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 2, accuracy = 85}, 
+			{x = -1562.50, y = 3147.68, z = 477.49, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 2, accuracy = 85}, --
+			{x = -1511.19, y = 3116.89, z = 489.68, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1517.70, y = 3123.58, z = 485.74, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1499.19, y = 3118.55, z = 491.48, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1494.80, y = 3108.83, z = 488.39, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1522.36, y = 3132.41, z = 480.83, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1532.11, y = 3129.24, z = 478.49, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1540.10, y = 3122.35, z = 476.04, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
+			{x = -1551.94, y = 3109.58, z = 475.79, weapon ="WEAPON_REPEATER_WINCHESTER", style = 2, accuracy = 85}, 
 			{x = -1562.27, y = 3087.10, z = 475.41, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85}, 
 			{x = -1553.35, y = 3090.32, z = 474.80, weapon ="WEAPON_SNIPERRIFLE_CARCANO", style = 0, accuracy = 85}, 
 			{x = -1563.45, y = 3105.31, z = 474.64, weapon ="WEAPON_RIFLE_SPRINGFIELD", style = 1, accuracy = 85}, 
@@ -1879,9 +1887,9 @@ BountyMissions = {
 		image = "https://i.ibb.co/phmp8cP/toca.png",
 		city = "Thieves Landing", 
 		type = "killer", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 450,
-		moneymax = 700,
-		showblips = true,
+		moneymin = 300,
+		moneymax = 500,
+		showblips = false,
 		timeO = 4, -- time when ped's spawn
 		timeC = 6, -- time after ped's don't spawn    
 		pos = {-1408.69, -2307.29, 43.16},
