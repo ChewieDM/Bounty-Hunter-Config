@@ -1761,12 +1761,12 @@ BountyMissions = {
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
 		moneymin = 450,
 		moneymax = 600,
-		showblips = true,
+		showblips = false,
 		timeO = 8, -- time when ped's spawn
 		timeC = 12, -- time after ped's don't spawn    
 		arrestnpc = "MP_U_M_M_LEGENDARYBOUNTY_004",
 		arrestnpcwep = "WEAPON_RIFLE_SPRINGFIELD",
-		pos = {-1574.86, 3127.67, 474.64}, {x = -1578.22, y = 3160.59, z = 480.26}
+		pos = {-1578.22, 3160.59, 480.26},
 		enemies = {
 			"G_M_M_BOUNTYHUNTERS_01",
 			"G_M_M_UNIBANDITOS_01",
