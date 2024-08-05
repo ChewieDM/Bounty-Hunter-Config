@@ -389,8 +389,8 @@ BountyMissions = {
 		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Benedict Point",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 20,
-		moneymax = 40,
+		moneymin = 30,
+		moneymax = 55,
 		showblips = true,
 		timeO = 8, -- time when ped's spawn
 		timeC = 22, -- time after ped's don't spawn    
@@ -409,13 +409,6 @@ BountyMissions = {
 			{x = -5430.59, y = -3665.59, z = -22.03, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
 			{x = -5427.29, y = -3672.54, z = -21.80, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
 			{x = -5431.33, y = -3645.18, z = -22.09, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5415.14, y = -3637.33, z = -22.08, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5409.20, y = -3644.73, z = -21.99, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5416.48, y = -3646.69, z = -22.06, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5397.27, y = -3655.52, z = -22.06, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5400.55, y = -3670.13, z = -22.06, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5397.04, y = -3679.83, z = -22.03, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
-			{x = -5387.13, y = -3664.87, z = -21.95, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 60}, 
 			{x = -5420.61, y = -3655.00, z = -18.68, weapon ="WEAPON_REPEATER_CARBINE", style = 0, accuracy = 50},  -- topo
 			{x = -5442.43, y = -3667.29, z = -21.16, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50}, 
 			{x = -5437.67, y = -3629.28, z = -20.88, weapon ="WEAPON_REPEATER_CARBINE", style = 2, accuracy = 50}, 
@@ -853,8 +846,8 @@ BountyMissions = {
 		image = "https://i.ibb.co/6NCpmLh/bounties.png",
 		city = "Benedict Point",
 		type = "arrest", -- SELECT ONLY "arrest" or "killer"
-		moneymin = 40,
-		moneymax = 70,
+		moneymin = 55,
+		moneymax = 90,
 		showblips = true,
 		timeO = 13, -- time when ped's spawn
 		timeC = 20, -- time after ped's don't spawn    
